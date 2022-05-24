@@ -25,23 +25,23 @@ public class AudioProcess {
     private static Array<Long> soundLong = new Array<>();
     private static AssetManager assetManager;
 
-    public static void prepare(AssetManager av) { // 准备哪些资源将要加载
+    public static void prepare(Class clazz) { // 准备哪些资源将要加载
         clear();
-        assetManager = av;
-        Field[] declaredFields = AudioType.class.getDeclaredFields();
+        assetManager = Asset.getAsset().assetManager;
+        Field[] declaredFields = clazz.getDeclaredFields();
         for (Field declaredField : declaredFields) {
             AudioResource annotation = AnnotationInfo.checkFeildAnnotation(declaredField, AudioResource.class);
             if (annotation != null){
                 if (annotation.value()) {
                     try {
-                        String value = (String) declaredField.get(AudioType.class);
+                        String value = (String) declaredField.get(clazz);
                         soundAssets.put(value, AAsset.registerSoundAsset("sound/"+ value));
                     } catch (IllegalAccessException e) {
                         e.printStackTrace();
                     }
                 }else {
                     try {
-                        String value = (String) declaredField.get(AudioType.class);
+                        String value = (String) declaredField.get(clazz);
                         musicAssets.put(value, AAsset.registerMusicAsset(value,assetManager));
                     } catch (IllegalAccessException e) {
                         e.printStackTrace();
@@ -83,7 +83,7 @@ public class AudioProcess {
         }
     }
 
-    public static void loadFinished(AssetManager assetManager){
+    public static void loadFinished(){
         Iterator<SoundAsset> iterator = soundAssets.values().iterator();
         while (iterator.hasNext()) {
             iterator.next().finished(assetManager);

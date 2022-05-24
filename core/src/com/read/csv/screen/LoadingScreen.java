@@ -1,11 +1,14 @@
 package com.read.csv.screen;
 
+import com.badlogic.gdx.Audio;
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.utils.SharedLibraryLoader;
 import com.kw.gdx.annotation.ScreenResource;
 import com.kw.gdx.audio.Asset;
+import com.kw.gdx.audio.AudioProcess;
+import com.kw.gdx.audio.AudioType;
 import com.read.csv.asset.GameAsset;
 import com.read.csv.screen.base.BaseScreen;
 
@@ -15,11 +18,22 @@ public class LoadingScreen extends BaseScreen {
     @Override
     public void show() {
         super.show();
+        //加载资源
         GameAsset asset = new GameAsset();
         asset.loadRes();
         AssetManager assetManager = Asset.getAsset().assetManager;
         assetManager.finishLoading();
         asset.getRes();
+
+
+        //加载音效
+        AudioProcess.prepare(AudioType.class);
+        Asset.getAsset().assetManager.finishLoading();
+        AudioProcess.loadFinished();
+
+        //播放音效
+        AudioProcess.playSound(AudioType.FA_DONG_JI);
+
 
 
 
