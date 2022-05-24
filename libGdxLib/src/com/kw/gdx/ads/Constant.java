@@ -1,7 +1,7 @@
 package com.kw.gdx.ads;
 
 public class Constant {
-    public static double vvv;
+    public static double vvv = 2;
 
     public static final float WORLDWIDTH = 72*0.3F;
     public static final float WORLDHIGHT = 128*0.3F;
@@ -21,4 +21,7 @@ public class Constant {
      */
     public static int batchType = 0;
     public static int viewportType = 0;
+    public static boolean isSound = true;
+    public static float soundV = 1;
+    public static boolean isMusic = true;
 }

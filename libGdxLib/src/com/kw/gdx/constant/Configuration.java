@@ -35,21 +35,10 @@ public class Configuration {
                 scale = 1;
             }
         }
-        if (device_name.equals("LG-H410")){
+        if(device_name.equals("GT-P5110")
+                ||Configuration.device_name.equals("GT-S5360")
+                ||device_name.equals("LG-H410")){
             device_state = DeviceState.poor;
-            scale = 0.5F;
-        }
-        if(screen_height*1.0F/screen_width<=800/480F){
-            bannerHeight = 105;
-        }
-        if(screen_height*1.0F/screen_width==854F/480F){
-            bannerHeight = 100;
-        }
-        if(device_name.equals("GT-P5110")){
-            device_state = DeviceState.poor;
-            scale = 1;
-        }
-        if(Configuration.device_name.equals("GT-S5360")){
             scale = 0.5F;
         }
         bannerHeight = (int)(50 * Constant.vvv);

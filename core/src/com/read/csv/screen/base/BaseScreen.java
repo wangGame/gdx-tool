@@ -12,6 +12,7 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 
+import com.kw.gdx.ads.BannerView;
 import com.kw.gdx.annotation.AnnotationInfo;
 import com.kw.gdx.annotation.ScreenResource;
 import com.kw.gdx.cocosload.CocosResource;
@@ -26,12 +27,16 @@ public class BaseScreen implements Screen {
     protected float offsetY;
     protected float offsetX;
     protected boolean back;
+    private BannerView bannerView;
 
     public BaseScreen(){
         stage = new Stage(getStageViewport(), getBatch());
         stage.getRoot().setSize(Constant.GAMEWIDTH,Constant.GAMEHIGHT);
         offsetY = (Constant.GAMEHIGHT - Constant.STDHIGHT)/2;
         offsetX = (Constant.GAMEWIDTH - Constant.STDWIDTH)/2;
+        bannerView = new BannerView();
+        bannerView.setPosition(Constant.GAMEWIDTH /2 ,-offsetY,Align.bottom);
+        stage.addActor(bannerView);
     }
 
     protected void initAnnotation(){

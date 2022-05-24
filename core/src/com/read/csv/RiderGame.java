@@ -15,7 +15,7 @@ import com.kw.gdx.annotation.GameInfo;
 import com.read.csv.constant.Constant;
 import com.read.csv.screen.LoadingScreen;
 
-@GameInfo(width = 720,height = 1280)
+@GameInfo(width = 1080,height = 1920)
 public class RiderGame extends BaseGame {
     private static RiderGame riderGame;
 

@@ -16,7 +16,6 @@ import java.util.Iterator;
 public class AudioProcess {
     public static HashMap<String, SoundAsset> soundAssets = new HashMap<>();
     public static HashMap<String, MusicAsset> musicAssets = new HashMap<>();
-    public static HashMap<String, String> musics = new HashMap<>();
     private static String currMusic = "";
     private static HashSet<String> currSoundLoop = new HashSet<>();
     private static boolean onFocus = true;
@@ -25,6 +24,7 @@ public class AudioProcess {
     private static Array<SoundAsset> soundAssetTemp = new Array<>();
     private static Array<Long> soundLong = new Array<>();
     private static AssetManager assetManager;
+
     public static void prepare(AssetManager av) { // 准备哪些资源将要加载
         clear();
         assetManager = av;
@@ -214,27 +214,12 @@ public class AudioProcess {
 
     public static void resumeMusic() {
         if (currMusic == null || currMusic.equals("")) return;
-//        if (!PreferenceUtils.music) return;
         musicAssets.get(currMusic).resumeMusic();
     }
 
     private static void pausemusic(String musicName) {
         musicAssets.get(musicName).pauseMusic();
     }
-
-//    public static void playMusic1(String musicName){
-//        if(musicName.equals(currMusic)) return;
-//        stopmusic(currMusic);
-//        currMusic = musicName;
-//        if (musicName != AudioType.MENU_MUSIC2){
-//            musicAssets.get(musicName).playMusicLoop(0.5F);
-//
-//        }else {
-//            musicAssets.get(musicName).playMusicLoop(1F);
-//        }
-//    }
-
-
 
     public static void stopMusic() {
         if (currMusic != null) {
@@ -274,14 +259,6 @@ public class AudioProcess {
         currMusic = "";
     }
 
-    public static FileHandle[] getAllSoundName() {
-        return Gdx.files.internal("sfx").list();
-    }
-
-    public static FileHandle[] getAllMusciName() {
-        return Gdx.files.internal("music").list();
-    }
-
     public static void destory() {
         for (int i = 0; i < musicAssets.size(); i++) {
             musicAssets.get(i).music.dispose();
@@ -292,16 +269,9 @@ public class AudioProcess {
         }
     }
 
-    public static void playSound(String name, boolean b) {
-        playsound(name,/*Constant.soundV*/0,b);
-    }
-
     public static void playMusic(String musicName){
-
-//        if(!Constant.isMusic) return;
-
+        if(!Constant.isMusic) return;
         if(musicName.equals(currMusic)) return;
-
         stopmusic(currMusic);
         currMusic = musicName;
         if (musicName != AudioType.MENU_MUSIC2){
@@ -311,20 +281,11 @@ public class AudioProcess {
         }
     }
 
-
-    public static void playMusic1(String musicName,boolean loop){
-//        if (!Constant.isSound)return;
-        MusicAsset musicAsset = musicAssets.get(musicName);
-        musicAsset.playMusicLoop1(1F * 3);
-        float v = (float) Math.random() * 5;
-        musicAsset.setPosition(v);
-    }
-
     public static void playSound(String name) {
-        playsound(name,/*Constant.soundV*/0,false);
+        playsound(name,Constant.soundV,false);
     }
 
-    public static void setVolumn(String name,float volumn) {
+    public static void setSoundAssetVolumn(String name, float volumn) {
         SoundAsset soundAsset = soundAssets.get(name);
         soundAsset.setVolume(volumn);
     }

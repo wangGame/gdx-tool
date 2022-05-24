@@ -7,6 +7,7 @@ import com.kw.gdx.annotation.FtResource;
 import com.kw.gdx.annotation.SpineResource;
 import com.kw.gdx.annotation.TextureReginAnnotation;
 import com.kw.gdx.audio.Asset;
+import com.kw.gdx.audio.AudioProcess;
 
 public class GameAsset {
 
@@ -19,7 +20,7 @@ public class GameAsset {
     public BitmapFont px_86;
 
     @TextureReginAnnotation(value = "image1/all.atlas")
-    private TextureAtlas atlas;
+    public TextureAtlas atlas;
 
 
     public void loadRes(){
