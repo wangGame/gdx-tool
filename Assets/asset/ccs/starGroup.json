@@ -1,0 +1,213 @@
+{
+  "ID": "77fd99ea-e5f2-4fff-a84f-05508a99e513",
+  "Version": "3.10.0.0",
+  "Name": "starGroup",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 240,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "stargroup/coin_bg.png",
+              "Plist": "plist/stargroup.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 99.4206,
+              "Y": 35.0237
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0921,
+              "Y": 0.0182
+            },
+            "PreSize": {
+              "X": 0.4093,
+              "Y": 0.0365
+            },
+            "LeftMargin": -64.5794,
+            "RightMargin": 816.5794,
+            "TopMargin": 1849.9763,
+            "BottomMargin": 0.0237,
+            "Tag": 256,
+            "ActionTag": -1276361843,
+            "Size": {
+              "X": 328.0,
+              "Y": 70.0
+            },
+            "Name": "bg_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "stargroup/coin_1.png",
+              "Plist": "plist/stargroup.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 151.4241,
+              "Y": 35.0208
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1402,
+              "Y": 0.0182
+            },
+            "PreSize": {
+              "X": 0.0426,
+              "Y": 0.0219
+            },
+            "LeftMargin": 128.4241,
+            "RightMargin": 905.5759,
+            "TopMargin": 1863.9792,
+            "BottomMargin": 14.0208,
+            "Tag": 253,
+            "ActionTag": 2059967186,
+            "Size": {
+              "X": 46.0,
+              "Y": 42.0
+            },
+            "Name": "coin",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "stargroup/1_999.png",
+              "Plist": "plist/stargroup.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 60.9259,
+              "Y": 32.0236
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0564,
+              "Y": 0.0167
+            },
+            "PreSize": {
+              "X": 0.1065,
+              "Y": 0.0229
+            },
+            "LeftMargin": 3.4259,
+            "RightMargin": 961.5741,
+            "TopMargin": 1865.9764,
+            "BottomMargin": 10.0236,
+            "Tag": 254,
+            "ActionTag": -1237860003,
+            "Size": {
+              "X": 115.0,
+              "Y": 44.0
+            },
+            "Name": "star_num",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "stargroup/plus.png",
+              "Plist": "plist/stargroup.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 229.4252,
+              "Y": 35.0237
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2124,
+              "Y": 0.0182
+            },
+            "PreSize": {
+              "X": 0.0648,
+              "Y": 0.0365
+            },
+            "LeftMargin": 194.4252,
+            "RightMargin": 815.5748,
+            "TopMargin": 1849.9763,
+            "BottomMargin": 0.0237,
+            "Tag": 255,
+            "ActionTag": -630310816,
+            "Size": {
+              "X": 70.0,
+              "Y": 70.0
+            },
+            "Name": "add_2",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 215.0,
+          "Y": 65.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plist/stargroup.plist",
+        "plist/stargroup.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

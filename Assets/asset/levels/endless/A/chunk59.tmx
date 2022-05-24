@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="70" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="393">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="1" name="Ground"/>
+ <objectgroup id="2" name="Top">
+  <object id="320" type="platform" gid="25" x="-1" y="1000" width="51" height="12"/>
+  <object id="323" type="platform" gid="23" x="50.0045" y="1000" width="83" height="12" rotation="-45">
+   <properties>
+    <property name="physicsActiveDelay" type="float" value="0"/>
+    <property name="physicsActiveOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="335" type="platform" gid="23" x="111.023" y="940.502" width="83" height="12" rotation="-45">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+    <property name="physicsActiveDelay" type="float" value="20"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="336" type="platform" gid="23" x="172.023" y="881.002" width="83" height="12" rotation="-45">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+    <property name="physicsActiveDelay" type="float" value="20"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="337" type="platform" gid="23" x="233.023" y="821.502" width="83" height="12" rotation="-45">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+    <property name="physicsActiveDelay" type="float" value="20"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="338" type="platform" gid="23" x="416.023" y="643.502" width="83" height="12" rotation="-45">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+    <property name="physicsActiveDelay" type="float" value="20"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="339" type="platform" gid="23" x="355.023" y="703.002" width="83" height="12" rotation="-45">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+    <property name="physicsActiveDelay" type="float" value="20"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="340" type="platform" gid="23" x="294.023" y="762.502" width="83" height="12" rotation="-45">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+    <property name="physicsActiveDelay" type="float" value="20"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="352" type="platform" gid="23" x="598.523" y="465.169" width="83" height="12" rotation="-45">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+    <property name="physicsActiveDelay" type="float" value="10"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="353" type="platform" gid="23" x="659.523" y="406.169" width="83" height="12" rotation="-45">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+    <property name="physicsActiveDelay" type="float" value="10"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="354" type="platform" gid="23" x="781.523" y="287.169" width="83" height="12" rotation="-45">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+    <property name="physicsActiveDelay" type="float" value="10"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="355" type="platform" gid="23" x="537.523" y="524.669" width="83" height="12" rotation="-45">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+    <property name="physicsActiveDelay" type="float" value="10"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="356" type="platform" gid="23" x="720.523" y="346.669" width="83" height="12" rotation="-45">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+    <property name="physicsActiveDelay" type="float" value="10"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="357" type="platform" gid="23" x="476.523" y="584.169" width="83" height="12" rotation="-45">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+    <property name="physicsActiveDelay" type="float" value="20"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="364" type="platform" gid="2147483662" x="1391.02" y="937" width="481" height="232"/>
+  <object id="392" type="platform" gid="25" x="1870.17" y="1000" width="387.667" height="12"/>
+ </objectgroup>
+ <objectgroup id="3" name="Currency">
+  <object id="389" type="currency" gid="65" x="691.582" y="314" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="390" type="currency" gid="65" x="521.252" y="478" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="391" type="currency" gid="65" x="607.579" y="395" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

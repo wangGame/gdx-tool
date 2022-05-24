@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="150" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="536">
+ <editorsettings>
+  <export target="level1-1.tmx" format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../../Currency.tsx"/>
+ <tileset firstgid="4" source="../../Enemies.tsx"/>
+ <tileset firstgid="8" source="../../Grounds.tsx"/>
+ <tileset firstgid="24" source="../../Platforms.tsx"/>
+ <objectgroup id="3" name="Ground"/>
+ <objectgroup id="2" name="Road">
+  <object id="458" type="platform" gid="47" x="-14.6667" y="1000" width="804.667" height="13"/>
+  <object id="505" type="start" x="45.6923" y="876" width="200" height="100"/>
+  <object id="506" type="end" x="4444.73" y="866.12" width="200" height="100"/>
+  <object id="507" type="revive" x="2437.64" y="866" width="200" height="100"/>
+  <object id="509" type="platform" gid="52" x="782.176" y="999.377" width="143" height="193" rotation="13.0044"/>
+  <object id="510" type="platform" gid="36" x="951.976" y="843.497" width="12" height="161" rotation="20.431">
+   <properties>
+    <property name="animAnchorY" type="float" value="0.5"/>
+    <property name="animRotation" value="[[90,600,&quot;inOutQuad&quot;,500],[-90,600,&quot;inOutQuad&quot;,5000]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="511" type="platform" gid="43" x="1060.84" y="596.042" width="220" height="110" rotation="-157.894"/>
+  <object id="512" type="platform" gid="55" x="796.703" y="622.876" width="122" height="31" rotation="66.6236"/>
+  <object id="513" type="platform" gid="39" x="863.564" y="725.357" width="56" height="12" rotation="27.095"/>
+  <object id="514" type="platform" gid="39" x="1056.65" y="802.867" width="56" height="12" rotation="15.9105"/>
+  <object id="515" type="platform" gid="52" x="1106.9" y="816.837" width="143" height="193" rotation="31.4276">
+   <properties>
+    <property name="animRotation" value="[[25,1000,&quot;inOutQuad&quot;,500],[-25,2000,&quot;inOutQuad&quot;,5000]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="516" type="platform" gid="42" x="1448.3" y="588.348" width="288" height="144" rotation="-138.53"/>
+  <object id="517" type="platform" gid="53" x="1071.46" y="535.077" width="234" height="51" rotation="92.0783">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="518" type="platform" gid="40" x="1327.85" y="728.907" width="42" height="12" rotation="-52.439"/>
+  <object id="519" type="platform" gid="40" x="1121.15" y="544.761" width="42" height="12" rotation="-51.417"/>
+  <object id="520" type="platform" gid="39" x="1334.32" y="780.197" width="56" height="12" rotation="-21.2981"/>
+  <object id="521" type="platform" gid="2147483679" x="1708.22" y="1000" width="241" height="122"/>
+  <object id="522" type="platform" gid="31" x="1469.22" y="998.937" width="241" height="122"/>
+  <object id="523" type="platform" gid="38" x="1948.29" y="1000" width="1082.92" height="12"/>
+  <object id="524" type="platform" gid="25" x="3022.88" y="1000.29" width="186" height="186"/>
+  <object id="526" type="platform" gid="25" x="3893.88" y="807.445" width="186" height="186" rotation="-267.584"/>
+  <object id="527" type="platform" gid="39" x="4063.12" y="999.785" width="739.519" height="12"/>
+  <object id="528" type="platform" gid="27" x="3369.38" y="745.285" width="218" height="56" rotation="-180">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="529" type="platform" gid="43" x="3372.1" y="921.885" width="220" height="110" rotation="-30.8272"/>
+  <object id="530" type="platform" gid="27" x="3439.44" y="530.96" width="218" height="56" rotation="-262.707">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="531" type="platform" gid="27" x="3604.46" y="972.805" width="218" height="56" rotation="-13.9147">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="532" type="platform" gid="40" x="3550.26" y="898.845" width="52.6457" height="12" rotation="-326.869"/>
+ </objectgroup>
+ <objectgroup id="4" name="Currency"/>
+</map>

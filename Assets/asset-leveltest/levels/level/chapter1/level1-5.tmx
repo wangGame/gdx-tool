@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="70" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="217">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="5" source="../../Platforms.tsx"/>
+ <tileset firstgid="52" source="../../Grounds.tsx"/>
+ <objectgroup id="2" name="Top">
+  <object id="134" type="platform" gid="8" x="545" y="1226.5" width="218" height="56">
+   <properties>
+    <property name="animPositionX" value="[[-250,2000,&quot;inOutQuad&quot;,0],[250,2000,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="144" type="platform" gid="30" x="-1" y="1374" width="141" height="12"/>
+  <object id="145" type="platform" gid="8" x="789" y="1226.5" width="218" height="56">
+   <properties>
+    <property name="animPositionX" value="[[250,2000,&quot;inOutQuad&quot;,0],[-250,2000,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="199" type="platform" gid="8" x="1251" y="1226.5" width="218" height="56">
+   <properties>
+    <property name="animPositionX" value="[[-250,2000,&quot;inOutQuad&quot;,0],[250,2000,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="200" type="platform" gid="8" x="1494" y="1226.5" width="218" height="56">
+   <properties>
+    <property name="animPositionX" value="[[250,2000,&quot;inOutQuad&quot;,0],[-250,2000,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="207" type="platform" gid="33" x="136.242" y="1375.01" width="143" height="193" rotation="-5.87"/>
+  <object id="208" type="platform" gid="30" x="247.025" y="1181.62" width="188.5" height="12"/>
+  <object id="209" type="platform" gid="30" x="2027" y="1374" width="217" height="12"/>
+  <object id="216" type="start" x="18.6667" y="1307" width="100" height="50"/>
+ </objectgroup>
+</map>

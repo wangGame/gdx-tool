@@ -1,0 +1,120 @@
+{
+  "ID": "3c68f659-2365-4c4f-b2a2-bcef6a685501",
+  "Version": "3.10.0.0",
+  "Name": "chapter_11",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "chapter/level.png",
+              "Plist": "plist/chapter.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 539.0,
+              "Y": 1826.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4991,
+              "Y": 0.9513
+            },
+            "PreSize": {
+              "X": 0.2444,
+              "Y": 0.038
+            },
+            "LeftMargin": 407.0,
+            "RightMargin": 409.0,
+            "TopMargin": 57.0,
+            "BottomMargin": 1790.0,
+            "Tag": 52,
+            "Size": {
+              "X": 264.0,
+              "Y": 73.0
+            },
+            "Name": "title",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "chapter/back.png",
+              "Plist": "plist/chapter.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 96.0,
+              "Y": 1827.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0889,
+              "Y": 0.9516
+            },
+            "PreSize": {
+              "X": 0.0685,
+              "Y": 0.0375
+            },
+            "LeftMargin": 59.0,
+            "RightMargin": 947.0,
+            "TopMargin": 57.0,
+            "BottomMargin": 1791.0,
+            "Tag": 74,
+            "Size": {
+              "X": 74.0,
+              "Y": 72.0
+            },
+            "Name": "back",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "chapter_11",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plist/chapter.plist",
+        "plist/chapter.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

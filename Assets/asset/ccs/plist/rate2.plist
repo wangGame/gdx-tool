@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>rate2/bg_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{3,3},{969,690}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{969,690}</string>
+			</dict>
+			<key>rate2/button.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{3,898},{765,142}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{765,142}</string>
+			</dict>
+			<key>rate2/close_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{916,763},{62,62}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{62,62}</string>
+			</dict>
+			<key>rate2/ok.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{916,699},{76,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{76,58}</string>
+			</dict>
+			<key>rate2/rate_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{697,699},{213,73}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{213,73}</string>
+			</dict>
+			<key>rate2/thanks_for.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{3,699},{688,193}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{688,193}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>rate2.png</string>
+			<key>realTextureFileName</key>
+			<string>rate2.png</string>
+			<key>size</key>
+			<string>{995,1043}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>995</integer>
+			<key>height</key>
+			<integer>1043</integer>
+		</dict>
+	</dict>
+</plist>

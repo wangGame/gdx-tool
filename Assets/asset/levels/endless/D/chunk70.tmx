@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="73" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="244">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="1" name="Ground"/>
+ <objectgroup id="2" name="Top">
+  <object id="107" type="platform" gid="14" x="138.999" y="1000.94" width="481" height="232"/>
+  <object id="144" type="platform" gid="34" x="-1" y="1000" width="141" height="12"/>
+  <object id="214" type="platform" gid="34" x="1951" y="1000" width="387" height="12"/>
+  <object id="223" type="platform" gid="27" x="753.9" y="981.513" width="288" height="144" rotation="-15">
+   <properties>
+    <property name="animAnchorY" type="float" value="0"/>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[30,500,&quot;inOutQuad&quot;,0],[-30,500,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="224" type="platform" gid="27" x="1100.65" y="1009.05" width="288" height="144" rotation="-30">
+   <properties>
+    <property name="animAnchorY" type="float" value="0"/>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[60,500,&quot;inOutQuad&quot;,0],[-60,500,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="229" type="platform" gid="27" x="1383.9" y="981.513" width="288" height="144" rotation="-15">
+   <properties>
+    <property name="animAnchorY" type="float" value="0"/>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[30,500,&quot;inOutQuad&quot;,0],[-30,500,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="230" type="platform" gid="27" x="1730.65" y="1009.05" width="288" height="144" rotation="-30">
+   <properties>
+    <property name="animAnchorY" type="float" value="0"/>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[60,500,&quot;inOutQuad&quot;,0],[-60,500,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Currency">
+  <object id="240" type="currency" gid="65" x="842" y="927.5" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="241" type="currency" gid="65" x="1135" y="938.5" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="242" type="currency" gid="65" x="1462" y="928.5" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="243" type="currency" gid="65" x="1765" y="934.5" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

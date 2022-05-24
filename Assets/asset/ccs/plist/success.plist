@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>success/04_58.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,366},{148,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{148,50}</string>
+			</dict>
+			<key>success/04_58_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{896,220},{119,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{119,40}</string>
+			</dict>
+			<key>success/again.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{634,148},{127,133}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{127,133}</string>
+			</dict>
+			<key>success/bestscore.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{245,278},{246,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{246,39}</string>
+			</dict>
+			<key>success/level_12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{245,148},{385,73}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{385,73}</string>
+			</dict>
+			<key>success/menu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{765,220},{127,133}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{127,133}</string>
+			</dict>
+			<key>success/next.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{245,321},{151,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{151,58}</string>
+			</dict>
+			<key>success/next_star.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{495,285},{221,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{221,39}</string>
+			</dict>
+			<key>success/star_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{771,2},{239,214}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{239,214}</string>
+			</dict>
+			<key>success/star_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,148},{239,214}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{239,214}</string>
+			</dict>
+			<key>success/your_time.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{245,225},{301,49}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{301,49}</string>
+			</dict>
+			<key>success/yuanjiaojuxing_2_kaobei.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{765,142}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{765,142}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>success.png</string>
+			<key>realTextureFileName</key>
+			<string>success.png</string>
+			<key>size</key>
+			<string>{1017,418}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1017</integer>
+			<key>height</key>
+			<integer>418</integer>
+		</dict>
+	</dict>
+</plist>

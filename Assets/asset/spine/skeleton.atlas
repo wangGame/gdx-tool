@@ -1,0 +1,97 @@
+
+skeleton.png
+size: 1011,1005
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+720 Flip!
+  rotate: false
+  xy: 394, 844
+  size: 245, 159
+  orig: 600, 400
+  offset: 183, 125
+  index: -1
+Acing it!
+  rotate: false
+  xy: 394, 721
+  size: 237, 121
+  orig: 600, 400
+  offset: 186, 146
+  index: -1
+Crazy Stunt!
+  rotate: false
+  xy: 643, 858
+  size: 350, 145
+  orig: 600, 400
+  offset: 130, 131
+  index: -1
+Daredevil!
+  rotate: false
+  xy: 394, 498
+  size: 306, 136
+  orig: 600, 400
+  offset: 146, 128
+  index: -1
+Double Flip!
+  rotate: false
+  xy: 643, 293
+  size: 346, 203
+  orig: 600, 400
+  offset: 129, 103
+  index: -1
+Expert Flipping!
+  rotate: true
+  xy: 2, 15
+  size: 464, 178
+  orig: 600, 400
+  offset: 66, 116
+  index: -1
+Flawless 720!
+  rotate: true
+  xy: 356, 107
+  size: 372, 285
+  orig: 600, 400
+  offset: 115, 53
+  index: -1
+Nailed it!
+  rotate: false
+  xy: 702, 506
+  size: 275, 128
+  orig: 600, 400
+  offset: 163, 132
+  index: -1
+Nice Flipping!
+  rotate: true
+  xy: 182, 72
+  size: 407, 172
+  orig: 600, 400
+  offset: 97, 115
+  index: -1
+Perfect 720!
+  rotate: false
+  xy: 643, 30
+  size: 339, 261
+  orig: 600, 400
+  offset: 126, 73
+  index: -1
+Perfect Double Flip!
+  rotate: true
+  xy: 2, 481
+  size: 522, 390
+  orig: 600, 400
+  offset: 35, 7
+  index: -1
+Spinin'
+  rotate: false
+  xy: 356, 2
+  size: 209, 103
+  orig: 600, 400
+  offset: 198, 154
+  index: -1
+Thrill-Seeker!
+  rotate: false
+  xy: 641, 636
+  size: 368, 220
+  orig: 600, 400
+  offset: 121, 87
+  index: -1

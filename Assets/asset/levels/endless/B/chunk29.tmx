@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="28" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="265">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="1" name="Ground"/>
+ <objectgroup id="2" name="Top">
+  <object id="242" type="platform" gid="17" x="45.4469" y="696.335" width="426" height="341" rotation="52.6204">
+   <properties>
+    <property name="animAnchorY" type="float" value="0.62"/>
+    <property name="animPositionY" value="[[-450,900,&quot;inOutQuad&quot;,0]]"/>
+    <property name="animRotation" value="[[180,900,&quot;inOutQuad&quot;,0],[-180,900,&quot;inOutQuad&quot;,10000]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="245" type="platform" gid="2147483663" x="577" y="1000" width="321" height="158"/>
+  <object id="264" type="platform" gid="34" x="-1.27273" y="1000" width="280.606" height="12"/>
+ </objectgroup>
+ <objectgroup id="3" name="Currency">
+  <object id="261" type="currency" gid="65" x="616.504" y="783.555" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="262" type="currency" gid="65" x="591.754" y="720.555" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="263" type="currency" gid="65" x="644.504" y="848.305" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

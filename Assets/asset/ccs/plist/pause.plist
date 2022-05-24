@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>pause/again.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{823,2},{127,133}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{127,133}</string>
+			</dict>
+			<key>pause/play_butto.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{276,286}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{276,286}</string>
+			</dict>
+			<key>pause/tap_to_con.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,292},{817,81}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{817,81}</string>
+			</dict>
+			<key>pause/menu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{282,139},{127,133}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{127,133}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>pause.png</string>
+			<key>realTextureFileName</key>
+			<string>pause.png</string>
+			<key>size</key>
+			<string>{952,375}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>952</integer>
+			<key>height</key>
+			<integer>375</integer>
+		</dict>
+	</dict>
+</plist>

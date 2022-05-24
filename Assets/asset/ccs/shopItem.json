@@ -1,0 +1,310 @@
+{
+  "ID": "4e9ecfb4-a12a-498c-a7dd-8cde9d287278",
+  "Version": "3.10.0.0",
+  "Name": "shopItem",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 297,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -0.4108,
+              "Y": -0.0597
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0014,
+              "Y": -0.0001
+            },
+            "PreSize": {
+              "X": 0.6757,
+              "Y": 0.4854
+            },
+            "LeftMargin": -0.4108,
+            "RightMargin": 96.4108,
+            "TopMargin": 212.0597,
+            "BottomMargin": -0.0597,
+            "Tag": 301,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "shop/selection.png",
+                  "Plist": "plist/shop.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 148.0002,
+                  "Y": 205.9996
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.74,
+                  "Y": 1.03
+                },
+                "PreSize": {
+                  "X": 1.48,
+                  "Y": 2.06
+                },
+                "LeftMargin": 0.0002,
+                "RightMargin": -96.0002,
+                "TopMargin": -211.9996,
+                "BottomMargin": -0.0004,
+                "Tag": 300,
+                "ActionTag": -1689778698,
+                "Size": {
+                  "X": 296.0,
+                  "Y": 412.0
+                },
+                "Name": "bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "shop/selection.png",
+                  "Plist": "plist/shop.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 148.0001,
+                  "Y": 205.9998
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.74,
+                  "Y": 1.03
+                },
+                "PreSize": {
+                  "X": 1.48,
+                  "Y": 2.06
+                },
+                "LeftMargin": 0.0001,
+                "RightMargin": -96.0001,
+                "TopMargin": -211.9998,
+                "BottomMargin": -0.0002,
+                "Tag": 302,
+                "ActionTag": -628480369,
+                "Size": {
+                  "X": 296.0,
+                  "Y": 412.0
+                },
+                "Name": "bg_green_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "shop/derby.png",
+                  "Plist": "plist/shop.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 147.5285,
+                  "Y": 336.5003
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7376,
+                  "Y": 1.6825
+                },
+                "PreSize": {
+                  "X": 0.645,
+                  "Y": 0.195
+                },
+                "LeftMargin": 83.0285,
+                "RightMargin": -12.0285,
+                "TopMargin": -156.0003,
+                "BottomMargin": 317.0003,
+                "Tag": 298,
+                "ActionTag": 406971205,
+                "Size": {
+                  "X": 129.0,
+                  "Y": 39.0
+                },
+                "Name": "title",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "shop/che.png",
+                  "Plist": "plist/shop.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 148.5301,
+                  "Y": 109.9998
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7427,
+                  "Y": 0.55
+                },
+                "PreSize": {
+                  "X": 1.115,
+                  "Y": 0.66
+                },
+                "LeftMargin": 37.0301,
+                "RightMargin": -60.0301,
+                "TopMargin": 24.0002,
+                "BottomMargin": 43.9998,
+                "Tag": 299,
+                "ActionTag": 129480904,
+                "Size": {
+                  "X": 223.0,
+                  "Y": 132.0
+                },
+                "Name": "carResource",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "shop/2.png",
+                  "Plist": "plist/shop.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 147.0757,
+                  "Y": 330.9399
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7354,
+                  "Y": 1.6547
+                },
+                "PreSize": {
+                  "X": 0.325,
+                  "Y": 0.37
+                },
+                "LeftMargin": 114.5757,
+                "RightMargin": 20.4243,
+                "TopMargin": -167.9399,
+                "BottomMargin": 293.9399,
+                "Tag": 303,
+                "ActionTag": -382894788,
+                "Size": {
+                  "X": 65.0,
+                  "Y": 74.0
+                },
+                "Name": "lock",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 88944137,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "Panel_3",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 296.0,
+          "Y": 412.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plist/shop.plist",
+        "plist/shop.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

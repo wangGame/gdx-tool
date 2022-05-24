@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="85" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="392">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="1" name="Ground"/>
+ <objectgroup id="2" name="Top">
+  <object id="266" type="platform" gid="10" x="698.482" y="812.821" width="186" height="186" rotation="-270"/>
+  <object id="295" type="platform" gid="35" x="1679.73" y="1213.95" width="279" height="377" rotation="-22.6296"/>
+  <object id="310" type="platform" gid="40" x="1472.25" y="1212.85" width="122" height="31" rotation="-286.713"/>
+  <object id="378" type="platform" gid="1073741861" x="1607.7" y="1205.11" width="143" height="193" rotation="-234.611"/>
+  <object id="386" type="platform" gid="35" x="2141.54" y="1334.73" width="279" height="377" rotation="6.37"/>
+  <object id="388" type="platform" gid="23" x="0" y="1000" width="274.339" height="12"/>
+  <object id="390" type="platform" gid="23" x="1854.99" y="1334.14" width="291" height="12"/>
+  <object id="391" type="platform" gid="23" x="2448" y="1000" width="291" height="12"/>
+  <object id="389" type="platform" gid="23" x="274.08" y="1000" width="81.05" height="12" rotation="-45.24"/>
+  <object id="289" type="enemy" gid="2" x="802.964" y="298.291" width="174" height="174">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[360,2000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="290" type="enemy" gid="2147483650" x="802.964" y="766.291" width="174" height="174">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[-360,2000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="291" type="enemy" gid="2" x="1132.96" y="338.291" width="174" height="174">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[360,2000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="292" type="enemy" gid="2147483650" x="1132.96" y="806.291" width="174" height="174">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[-360,2000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="293" type="enemy" gid="2" x="1451.96" y="580.291" width="174" height="174">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[360,2000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="294" type="enemy" gid="2147483650" x="1451.96" y="1048.29" width="174" height="174">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[-360,2000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="283" type="enemy" gid="2" x="479.964" y="476.291" width="174" height="174">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[360,2000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="285" type="enemy" gid="2147483650" x="479.964" y="966.291" width="174" height="174">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[-360,2000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="384" type="boost" gid="69" x="272.5" y="981.5" width="68" height="34" rotation="-45.24">
+   <properties>
+    <property name="addSpeed" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

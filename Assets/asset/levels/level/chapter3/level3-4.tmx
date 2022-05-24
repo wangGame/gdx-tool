@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="203" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="600">
+ <editorsettings>
+  <export target="level1-1.tmx" format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../../Currency.tsx"/>
+ <tileset firstgid="10" source="../../Enemies.tsx"/>
+ <tileset firstgid="18" source="../../Platforms.tsx"/>
+ <objectgroup id="2" name="Road">
+  <object id="576" type="revive" gid="9" x="2368.29" y="964.833" width="40" height="154"/>
+  <object id="577" type="end" gid="8" x="5404.75" y="964.25" width="153" height="1000"/>
+  <object id="596" type="start" x="250" y="939" width="75" height="50"/>
+  <object id="511" type="platform" gid="43" x="0" y="1000" width="700" height="12"/>
+  <object id="553" type="platform" gid="19" x="691.995" y="1000.94" width="186" height="186"/>
+  <object id="554" type="platform" gid="27" x="1089.27" y="675.787" width="288" height="231" rotation="-213.355">
+   <properties>
+    <property name="animAnchorY" type="float" value="0.61"/>
+    <property name="animRotation" value="[[100,1000,&quot;inOutQuad&quot;,700],[-100,1000,&quot;inOutQuad&quot;,700]]"/>
+   </properties>
+  </object>
+  <object id="555" type="platform" gid="27" x="1578.24" y="907.907" width="288" height="231" rotation="-121.071">
+   <properties>
+    <property name="animAnchorY" type="float" value="0.61"/>
+    <property name="animRotation" value="[[-100,1000,&quot;inOutQuad&quot;,700],[100,1000,&quot;inOutQuad&quot;,700]]"/>
+   </properties>
+  </object>
+  <object id="556" type="platform" gid="27" x="1817.41" y="664.267" width="288" height="231" rotation="-224.139">
+   <properties>
+    <property name="animAnchorY" type="float" value="0.61"/>
+    <property name="animRotation" value="[[100,1000,&quot;inOutQuad&quot;,700],[-100,1000,&quot;inOutQuad&quot;,700]]"/>
+   </properties>
+  </object>
+  <object id="566" type="platform" gid="2147483672" x="3064.62" y="976.27" width="321" height="158"/>
+  <object id="569" type="platform" gid="2147483673" x="4756.54" y="976.27" width="241" height="122"/>
+  <object id="570" type="platform" gid="23" x="3557.04" y="976.27" width="481" height="232"/>
+  <object id="571" type="platform" gid="25" x="4517.04" y="976.27" width="241" height="122"/>
+  <object id="572" type="platform" gid="2147483671" x="4037.04" y="976.27" width="481" height="232"/>
+  <object id="573" type="platform" gid="43" x="3384.2" y="975.766" width="174.333" height="12"/>
+  <object id="533" type="platform" gid="42" x="2047.53" y="976.01" width="529.915" height="12"/>
+  <object id="574" type="platform" gid="42" x="2576.45" y="976.01" width="222.498" height="12">
+   <properties>
+    <property name="animPositionY" value="[[-300,150,&quot;inOutQuad&quot;,50],[300,600,&quot;inOutQuad&quot;,0],[0,0,&quot;linear&quot;,1000]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="599" type="platform" gid="33" x="4996.55" y="975.276" width="1500" height="12"/>
+  <object id="587" type="currency" gid="3" x="974.394" y="947.335" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="589" type="currency" gid="3" x="1388.33" y="949.668" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="591" type="currency" gid="3" x="1739.67" y="947.168" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="592" type="currency" gid="3" x="2895.6" y="767.832" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="593" type="currency" gid="3" x="2729.61" y="798.501" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="594" type="currency" gid="3" x="4011" y="737.5" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="595" type="currency" gid="3" x="4731.67" y="846.5" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Currency"/>
+</map>

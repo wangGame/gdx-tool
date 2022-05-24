@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="42" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="183">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="1" name="Ground"/>
+ <objectgroup id="2" name="Top">
+  <object id="160" type="platform" gid="18" x="238.699" y="588.115" width="288" height="231" rotation="29.6002"/>
+  <object id="161" type="platform" gid="2147483684" x="290.969" y="1035.58" width="189" height="255" rotation="-10.7158"/>
+  <object id="163" type="platform" gid="25" x="-2" y="1000" width="42" height="12"/>
+  <object id="180" type="platform" gid="34" x="247.468" y="775.58" width="305.384" height="12" rotation="135"/>
+  <object id="181" type="platform" gid="34" x="472.696" y="1000.7" width="174.569" height="12" rotation="-27.42"/>
+  <object id="182" type="platform" gid="25" x="1044.33" y="1000" width="304" height="12"/>
+ </objectgroup>
+ <objectgroup id="3" name="currency">
+  <object id="172" type="currency" gid="65" x="441.74" y="518.983" width="50.434" height="66">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="173" type="currency" gid="65" x="499.74" y="611.983" width="50.434" height="66">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="174" type="currency" gid="65" x="439.74" y="698.983" width="50.434" height="66">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="175" type="currency" gid="65" x="338.24" y="513.983" width="50.434" height="66">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="176" type="currency" gid="65" x="277.957" y="607.353" width="51" height="66.7407">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

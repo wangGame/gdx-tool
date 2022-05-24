@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="70" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="194">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="1" name="Ground"/>
+ <objectgroup id="2" name="Top">
+  <object id="145" type="platform" gid="25" x="-3" y="1000" width="45" height="12"/>
+  <object id="150" type="platform" gid="14" x="1007.98" y="513.478" width="481" height="232"/>
+  <object id="154" type="platform" gid="10" x="33.9783" y="999.98" width="186" height="186"/>
+  <object id="155" type="platform" gid="10" x="425.978" y="847.978" width="186" height="186"/>
+  <object id="156" type="platform" gid="10" x="829.978" y="685.978" width="186" height="186"/>
+  <object id="193" gid="23" x="1488.94" y="1000" width="760.833" height="12"/>
+ </objectgroup>
+ <objectgroup id="3" name="Currency">
+  <object id="188" type="currency" gid="65" x="1018.48" y="496.145" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="189" type="currency" gid="65" x="1083.48" y="477.478" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="190" type="currency" gid="65" x="1142.81" y="441.812" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="191" type="currency" gid="65" x="1199.81" y="403.145" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

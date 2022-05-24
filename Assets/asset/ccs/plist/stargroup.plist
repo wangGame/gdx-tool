@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>stargroup/1_999.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{334,2},{115,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{115,44}</string>
+			</dict>
+			<key>stargroup/coin_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{334,50},{46,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,42}</string>
+			</dict>
+			<key>stargroup/coin_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{328,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{328,70}</string>
+			</dict>
+			<key>stargroup/plus.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{453,2},{70,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,70}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>stargroup.png</string>
+			<key>realTextureFileName</key>
+			<string>stargroup.png</string>
+			<key>size</key>
+			<string>{525,94}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>525</integer>
+			<key>height</key>
+			<integer>94</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,27 @@
+
+xsyd.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hand
+  rotate: false
+  xy: 2, 2
+  size: 161, 203
+  orig: 161, 203
+  offset: 0, 0
+  index: -1
+quan_a
+  rotate: false
+  xy: 325, 122
+  size: 82, 83
+  orig: 82, 83
+  offset: 0, 0
+  index: -1
+quan_b
+  rotate: false
+  xy: 165, 47
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1

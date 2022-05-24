@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="56" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="704">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="1" name="Ground"/>
+ <objectgroup id="2" name="Top">
+  <object id="575" type="platform" gid="34" x="-2" y="1000" width="141" height="12"/>
+  <object id="604" type="platform" gid="33" x="1675.32" y="1000" width="122.43" height="12"/>
+  <object id="677" type="platform" gid="36" x="134.17" y="1000.33" width="189" height="255" rotation="7.59"/>
+  <object id="681" type="platform" gid="1073741838" x="1195.34" y="1000.95" width="481" height="232"/>
+  <object id="690" type="platform" gid="34" x="344.271" y="782.023" width="178.647" height="12"/>
+ </objectgroup>
+ <objectgroup id="3" name="Currency">
+  <object id="697" type="enemy" gid="7" x="670.139" y="1150.12" width="36.12" height="324.28">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[-200,500,&quot;outBack&quot;,700],[200,800,&quot;outBounce&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="698" type="enemy" gid="7" x="839.749" y="1108.31" width="36.12" height="324.28">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[-200,500,&quot;outBack&quot;,700],[200,800,&quot;outBounce&quot;,0]]"/>
+    <property name="animStartDelay" type="int" value="200"/>
+   </properties>
+  </object>
+  <object id="699" type="enemy" gid="7" x="1019.75" y="1150.31" width="36.12" height="324.28">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[-200,500,&quot;outBack&quot;,700],[200,800,&quot;outBounce&quot;,0]]"/>
+    <property name="animStartDelay" type="int" value="400"/>
+   </properties>
+  </object>
+  <object id="700" type="platform" gid="60" x="522.229" y="823.983" width="678" height="55"/>
+  <object id="701" type="currency" gid="65" x="670.089" y="803.063" width="55.9251" height="73.186">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="702" type="currency" gid="65" x="839.429" y="760.573" width="55.9251" height="73.186">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="703" type="currency" gid="65" x="1020.3" y="802.833" width="55.9251" height="73.186">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

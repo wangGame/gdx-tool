@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="42" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="326">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="5" source="../../Platforms.tsx"/>
+ <tileset firstgid="52" source="../../Grounds.tsx"/>
+ <objectgroup id="2" name="Top">
+  <object id="285" type="platform" gid="33" x="275.141" y="1374.2" width="143" height="193" rotation="15.3343"/>
+  <object id="289" type="platform" gid="28" x="-2" y="1374" width="281" height="12"/>
+  <object id="300" type="platform" gid="23" x="729.395" y="1267.94" width="288" height="144" rotation="-65">
+   <properties>
+    <property name="animAnchorY" type="float" value="0"/>
+    <property name="animRotation" value="[[130,1400,&quot;inOutQuad&quot;,200],[-130,1400,&quot;inOutQuad&quot;,200]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="physicsActiveOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="325" type="start" x="84.6667" y="1290.33" width="100" height="50"/>
+ </objectgroup>
+</map>

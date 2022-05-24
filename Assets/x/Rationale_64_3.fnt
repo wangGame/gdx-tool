@@ -1,0 +1,37 @@
+info face="Rationale" size=74 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=0,0
+common lineHeight=74 base=58 scaleW=256 scaleH=256 pages=1 packed=0
+page id=0 file="Rationale_64_3.png"
+chars count=28
+char id=10      x=0    y=0    width=0    height=0    xoffset=0    yoffset=0    xadvance=0    page=0    chnl=0 
+char id=32      x=0    y=0    width=0    height=0    xoffset=-1   yoffset=57   xadvance=12   page=0    chnl=0 
+char id=65      x=184  y=196  width=29   height=52   xoffset=2    yoffset=12   xadvance=31   page=0    chnl=0 
+char id=66      x=174  y=136  width=29   height=52   xoffset=2    yoffset=12   xadvance=30   page=0    chnl=0 
+char id=67      x=221  y=196  width=26   height=52   xoffset=2    yoffset=12   xadvance=24   page=0    chnl=0 
+char id=68      x=163  y=76   width=29   height=52   xoffset=2    yoffset=12   xadvance=31   page=0    chnl=0 
+char id=69      x=119  y=16   width=25   height=52   xoffset=2    yoffset=12   xadvance=25   page=0    chnl=0 
+char id=70      x=152  y=16   width=25   height=52   xoffset=2    yoffset=12   xadvance=24   page=0    chnl=0 
+char id=71      x=211  y=136  width=29   height=52   xoffset=2    yoffset=12   xadvance=29   page=0    chnl=0 
+char id=72      x=106  y=196  width=31   height=52   xoffset=2    yoffset=12   xadvance=33   page=0    chnl=0 
+char id=73      x=237  y=76   width=11   height=52   xoffset=2    yoffset=12   xadvance=15   page=0    chnl=0 
+char id=74      x=218  y=9    width=18   height=59   xoffset=-5   yoffset=12   xadvance=15   page=0    chnl=0 
+char id=75      x=97   y=136  width=31   height=52   xoffset=2    yoffset=12   xadvance=29   page=0    chnl=0 
+char id=76      x=85   y=16   width=26   height=52   xoffset=2    yoffset=12   xadvance=25   page=0    chnl=0 
+char id=77      x=8    y=136  width=41   height=52   xoffset=2    yoffset=12   xadvance=42   page=0    chnl=0 
+char id=78      x=8    y=8    width=33   height=52   xoffset=2    yoffset=12   xadvance=35   page=0    chnl=0 
+char id=79      x=136  y=136  width=30   height=52   xoffset=2    yoffset=12   xadvance=30   page=0    chnl=0 
+char id=80      x=200  y=76   width=29   height=52   xoffset=2    yoffset=12   xadvance=29   page=0    chnl=0 
+char id=81      x=8    y=68   width=30   height=60   xoffset=2    yoffset=12   xadvance=30   page=0    chnl=0 
+char id=82      x=86   y=76   width=31   height=52   xoffset=2    yoffset=12   xadvance=30   page=0    chnl=0 
+char id=83      x=185  y=16   width=25   height=52   xoffset=1    yoffset=12   xadvance=26   page=0    chnl=0 
+char id=84      x=66   y=196  width=32   height=52   xoffset=-1   yoffset=12   xadvance=28   page=0    chnl=0 
+char id=85      x=125  y=76   width=30   height=52   xoffset=2    yoffset=12   xadvance=32   page=0    chnl=0 
+char id=86      x=57   y=136  width=32   height=52   xoffset=0    yoffset=12   xadvance=29   page=0    chnl=0 
+char id=87      x=8    y=196  width=50   height=52   xoffset=0    yoffset=12   xadvance=46   page=0    chnl=0 
+char id=88      x=145  y=196  width=31   height=52   xoffset=0    yoffset=12   xadvance=28   page=0    chnl=0 
+char id=89      x=46   y=76   width=32   height=52   xoffset=-1   yoffset=12   xadvance=27   page=0    chnl=0 
+char id=90      x=49   y=16   width=28   height=52   xoffset=0    yoffset=12   xadvance=26   page=0    chnl=0 
+kernings count=4
+kerning first=76 second=84 amount=-4
+kerning first=76 second=86 amount=-3
+kerning first=76 second=87 amount=-2
+kerning first=76 second=89 amount=-3

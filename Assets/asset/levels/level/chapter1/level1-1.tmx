@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="173" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="185">
+ <editorsettings>
+  <export target="level1-1.tmx" format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../../Platforms.tsx"/>
+ <tileset firstgid="55" source="../../Enemies.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="2" name="Road">
+  <object id="144" type="platform" gid="6" x="3591.66" y="998.651" width="482" height="233"/>
+  <object id="147" type="start" x="250" y="939" width="75" height="50"/>
+  <object id="152" type="platform" gid="5" x="1139.35" y="997.673" width="1157.49" height="12"/>
+  <object id="157" type="platform" gid="5" x="4072.74" y="777.63" width="1500" height="12"/>
+  <object id="159" type="platform" gid="5" x="-2.98842" y="999.25" width="770.401" height="12"/>
+  <object id="160" type="platform" gid="6" x="2292.22" y="998.63" width="482" height="233"/>
+  <object id="161" type="platform" gid="2147483654" x="3254.22" y="765.63" width="482" height="233" rotation="180"/>
+  <object id="162" type="platform" gid="5" x="3253.22" y="997.65" width="339.492" height="12"/>
+  <object id="165" type="revive" gid="71" x="1989.25" y="985.75" width="40" height="154"/>
+  <object id="166" type="end" gid="70" x="4220.64" y="765.687" width="153" height="1000"/>
+  <object id="179" type="currecy" gid="65" x="2760" y="759" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="184" gid="27" x="763.414" y="1000.25" width="280" height="378"/>
+ </objectgroup>
+ <objectgroup id="4" name="Currency"/>
+</map>

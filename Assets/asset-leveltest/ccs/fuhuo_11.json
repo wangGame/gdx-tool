@@ -1,0 +1,914 @@
+{
+  "ID": "c36bf273-0a06-4ee6-b10f-2450595baf19",
+  "Version": "3.10.0.0",
+  "Name": "fuhuo_11",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "fuhuo/tap_to_ski.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 358.5,
+              "Y": 222.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4979,
+              "Y": 0.1734
+            },
+            "PreSize": {
+              "X": 0.4542,
+              "Y": 0.0391
+            },
+            "LeftMargin": 195.0,
+            "RightMargin": 198.0,
+            "TopMargin": 1033.0,
+            "BottomMargin": 197.0,
+            "Tag": 42,
+            "Size": {
+              "X": 327.0,
+              "Y": 50.0
+            },
+            "Name": "tap_to_ski",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "fuhuo/number.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 361.5,
+              "Y": 722.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5021,
+              "Y": 0.5641
+            },
+            "PreSize": {
+              "X": 0.1153,
+              "Y": 0.1266
+            },
+            "LeftMargin": 320.0,
+            "RightMargin": 317.0,
+            "TopMargin": 477.0,
+            "BottomMargin": 641.0,
+            "Tag": 47,
+            "Size": {
+              "X": 83.0,
+              "Y": 162.0
+            },
+            "Name": "level_num",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "fuhuo/continue_.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 1054.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.8238
+            },
+            "PreSize": {
+              "X": 0.6167,
+              "Y": 0.0648
+            },
+            "LeftMargin": 138.0,
+            "RightMargin": 138.0,
+            "TopMargin": 184.0,
+            "BottomMargin": 1013.0,
+            "Tag": 49,
+            "Size": {
+              "X": 444.0,
+              "Y": 83.0
+            },
+            "Name": "continue_",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 128.56,
+              "Y": 293.43
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1786,
+              "Y": 0.2292
+            },
+            "PreSize": {
+              "X": 0.6444,
+              "Y": 0.1117
+            },
+            "LeftMargin": 128.56,
+            "RightMargin": 127.44,
+            "TopMargin": 843.57,
+            "BottomMargin": 293.43,
+            "Tag": 554,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/continue.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 228.0,
+                  "Y": 75.0601
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4914,
+                  "Y": 0.5249
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.986
+                },
+                "LeftMargin": -4.0,
+                "RightMargin": 4.0,
+                "TopMargin": -2.5601,
+                "BottomMargin": 4.5601,
+                "Tag": 297,
+                "ActionTag": -1850766687,
+                "Size": {
+                  "X": 464.0,
+                  "Y": 141.0
+                },
+                "Name": "continue_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/jinbi.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.4426,
+                  "Y": 77.558
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1518,
+                  "Y": 0.5424
+                },
+                "PreSize": {
+                  "X": 0.1466,
+                  "Y": 0.5594
+                },
+                "LeftMargin": 36.4426,
+                "RightMargin": 359.5574,
+                "TopMargin": 25.442,
+                "BottomMargin": 37.558,
+                "Tag": 553,
+                "ActionTag": 10294628,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 80.0
+                },
+                "Name": "jinbi_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/shiipin.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.4401,
+                  "Y": 76.5601
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1518,
+                  "Y": 0.5354
+                },
+                "PreSize": {
+                  "X": 0.1444,
+                  "Y": 0.3566
+                },
+                "LeftMargin": 36.9401,
+                "RightMargin": 360.0599,
+                "TopMargin": 40.9399,
+                "BottomMargin": 51.0601,
+                "Tag": 296,
+                "ActionTag": 486462180,
+                "Size": {
+                  "X": 67.0,
+                  "Y": 51.0
+                },
+                "Name": "shiipin_5",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 162322024,
+            "Size": {
+              "X": 464.0,
+              "Y": 143.0
+            },
+            "Name": "continue",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 361.0,
+              "Y": 729.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5014,
+              "Y": 0.5695
+            },
+            "PreSize": {
+              "X": 0.5333,
+              "Y": 0.3
+            },
+            "LeftMargin": 169.0,
+            "RightMargin": 167.0,
+            "TopMargin": 359.0,
+            "BottomMargin": 537.0,
+            "Tag": 131,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 246.3466,
+                  "Y": 352.5466
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6415,
+                  "Y": 0.9181
+                },
+                "PreSize": {
+                  "X": 0.2188,
+                  "Y": 0.1224
+                },
+                "LeftMargin": 204.3466,
+                "RightMargin": 95.6534,
+                "TopMargin": 7.9534,
+                "BottomMargin": 329.0466,
+                "Tag": 132,
+                "ActionTag": 841887517,
+                "Size": {
+                  "X": 84.0,
+                  "Y": 47.0
+                },
+                "Name": "1_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 329.7339,
+                  "Y": 293.3253
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8587,
+                  "Y": 0.7639
+                },
+                "PreSize": {
+                  "X": 0.1719,
+                  "Y": 0.2057
+                },
+                "LeftMargin": 296.7339,
+                "RightMargin": 21.2661,
+                "TopMargin": 51.1747,
+                "BottomMargin": 253.8253,
+                "Tag": 133,
+                "ActionTag": -1408292015,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 79.0
+                },
+                "Name": "2_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/3.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 362.2349,
+                  "Y": 190.826
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9433,
+                  "Y": 0.4969
+                },
+                "PreSize": {
+                  "X": 0.0755,
+                  "Y": 0.2292
+                },
+                "LeftMargin": 347.7349,
+                "RightMargin": 7.2651,
+                "TopMargin": 149.174,
+                "BottomMargin": 146.826,
+                "Tag": 134,
+                "ActionTag": 643619108,
+                "Size": {
+                  "X": 29.0,
+                  "Y": 88.0
+                },
+                "Name": "3_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/4.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 330.2339,
+                  "Y": 88.3266
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.86,
+                  "Y": 0.23
+                },
+                "PreSize": {
+                  "X": 0.1745,
+                  "Y": 0.2057
+                },
+                "LeftMargin": 296.7339,
+                "RightMargin": 20.2661,
+                "TopMargin": 256.1734,
+                "BottomMargin": 48.8266,
+                "Tag": 135,
+                "ActionTag": -789328047,
+                "Size": {
+                  "X": 67.0,
+                  "Y": 79.0
+                },
+                "Name": "4_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/5.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 246.7336,
+                  "Y": 29.3273
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6425,
+                  "Y": 0.0764
+                },
+                "PreSize": {
+                  "X": 0.2188,
+                  "Y": 0.1224
+                },
+                "LeftMargin": 204.7336,
+                "RightMargin": 95.2664,
+                "TopMargin": 331.1727,
+                "BottomMargin": 5.8273,
+                "Tag": 136,
+                "ActionTag": 991182609,
+                "Size": {
+                  "X": 84.0,
+                  "Y": 47.0
+                },
+                "Name": "5_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/6.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 135.7347,
+                  "Y": 29.3273
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3535,
+                  "Y": 0.0764
+                },
+                "PreSize": {
+                  "X": 0.2188,
+                  "Y": 0.1224
+                },
+                "LeftMargin": 93.7347,
+                "RightMargin": 206.2653,
+                "TopMargin": 331.1727,
+                "BottomMargin": 5.8273,
+                "Tag": 137,
+                "ActionTag": -266546155,
+                "Size": {
+                  "X": 84.0,
+                  "Y": 47.0
+                },
+                "Name": "6_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/7.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 52.7342,
+                  "Y": 89.3262
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1373,
+                  "Y": 0.2326
+                },
+                "PreSize": {
+                  "X": 0.1719,
+                  "Y": 0.2057
+                },
+                "LeftMargin": 19.7342,
+                "RightMargin": 298.2658,
+                "TopMargin": 255.1738,
+                "BottomMargin": 49.8262,
+                "Tag": 138,
+                "ActionTag": 1760615243,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 79.0
+                },
+                "Name": "7_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/8.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 19.2363,
+                  "Y": 190.826
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0501,
+                  "Y": 0.4969
+                },
+                "PreSize": {
+                  "X": 0.0755,
+                  "Y": 0.2292
+                },
+                "LeftMargin": 4.7363,
+                "RightMargin": 350.2637,
+                "TopMargin": 149.174,
+                "BottomMargin": 146.826,
+                "Tag": 139,
+                "ActionTag": -2130382326,
+                "Size": {
+                  "X": 29.0,
+                  "Y": 88.0
+                },
+                "Name": "8_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/9.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 53.2366,
+                  "Y": 292.326
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1386,
+                  "Y": 0.7613
+                },
+                "PreSize": {
+                  "X": 0.1745,
+                  "Y": 0.2057
+                },
+                "LeftMargin": 19.7366,
+                "RightMargin": 297.2634,
+                "TopMargin": 52.174,
+                "BottomMargin": 252.826,
+                "Tag": 140,
+                "ActionTag": 832984204,
+                "Size": {
+                  "X": 67.0,
+                  "Y": 79.0
+                },
+                "Name": "9_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/10.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 135.7347,
+                  "Y": 351.8262
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3535,
+                  "Y": 0.9162
+                },
+                "PreSize": {
+                  "X": 0.2188,
+                  "Y": 0.125
+                },
+                "LeftMargin": 93.7347,
+                "RightMargin": 206.2653,
+                "TopMargin": 8.1738,
+                "BottomMargin": 327.8262,
+                "Tag": 141,
+                "ActionTag": -232621720,
+                "Size": {
+                  "X": 84.0,
+                  "Y": 48.0
+                },
+                "Name": "10_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "fuhuo/jishibg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 191.2344,
+                  "Y": 190.8273
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.498,
+                  "Y": 0.4969
+                },
+                "PreSize": {
+                  "X": 0.9974,
+                  "Y": 0.9948
+                },
+                "LeftMargin": -0.2656,
+                "RightMargin": 1.2656,
+                "TopMargin": 2.1727,
+                "BottomMargin": -0.1727,
+                "Tag": 142,
+                "ActionTag": -1303838998,
+                "Size": {
+                  "X": 383.0,
+                  "Y": 382.0
+                },
+                "Name": "jishibg_0",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1376416869,
+            "Size": {
+              "X": 384.0,
+              "Y": 384.0
+            },
+            "Name": "Panel_3",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "fuhuo_11",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "fuhuo/1.png",
+        "fuhuo/10.png",
+        "fuhuo/2.png",
+        "fuhuo/3.png",
+        "fuhuo/4.png",
+        "fuhuo/5.png",
+        "fuhuo/6.png",
+        "fuhuo/7.png",
+        "fuhuo/8.png",
+        "fuhuo/9.png",
+        "fuhuo/continue.png",
+        "fuhuo/continue_.png",
+        "fuhuo/jinbi.png",
+        "fuhuo/jishibg.png",
+        "fuhuo/number.png",
+        "fuhuo/shiipin.png",
+        "fuhuo/tap_to_ski.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

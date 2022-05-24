@@ -1,0 +1,13 @@
+
+qi.png
+size: 274,154
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qi
+  rotate: false
+  xy: 2, 2
+  size: 270, 150
+  orig: 270, 150
+  offset: 0, 0
+  index: -1

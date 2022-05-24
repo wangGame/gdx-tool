@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="92" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="284">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="5" source="../../Platforms.tsx"/>
+ <tileset firstgid="54" source="../../Grounds.tsx"/>
+ <objectgroup id="2" name="Top">
+  <object id="243" type="platform" gid="28" x="-1.31519" y="1374" width="346.63" height="12"/>
+  <object id="245" type="platform" gid="2147483659" x="833" y="1374.5" width="321" height="158"/>
+  <object id="246" type="platform" gid="21" x="1145" y="1373.5" width="42" height="12"/>
+  <object id="264" type="platform" gid="28" x="344.036" y="1374" width="224.927" height="12">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[-300,200,&quot;inOutQuad&quot;,150],[300,600,&quot;inOutQuad&quot;,0],[0,0,&quot;linear&quot;,1000]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="zuobi" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="270" type="platform" gid="2147483660" x="2524.92" y="1374.5" width="241" height="122"/>
+  <object id="271" type="platform" gid="10" x="1325.42" y="1374.5" width="481" height="232"/>
+  <object id="273" type="platform" gid="29" x="2763.92" y="1374" width="188" height="12"/>
+  <object id="275" type="platform" gid="12" x="2285.42" y="1374.5" width="241" height="122"/>
+  <object id="278" type="platform" gid="2147483658" x="1805.42" y="1374.5" width="481" height="232"/>
+  <object id="280" type="platform" gid="30" x="1185.92" y="1374" width="141" height="12"/>
+  <object id="283" type="start" x="28" y="1295" width="100" height="50"/>
+ </objectgroup>
+</map>

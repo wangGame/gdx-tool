@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="73" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="339">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="5" source="../../Platforms.tsx"/>
+ <tileset firstgid="54" source="../../Grounds.tsx"/>
+ <objectgroup id="2" name="Top">
+  <object id="296" type="enemy" gid="1" x="1156.85" y="1537.74" width="429" height="106">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[-200,200,&quot;inQuad&quot;,1000],[200,200,&quot;inQuad&quot;,100]]"/>
+   </properties>
+  </object>
+  <object id="297" type="enemy" gid="1" x="1585.85" y="1259.59" width="429" height="106" rotation="180">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[200,200,&quot;inQuad&quot;,1000],[-200,200,&quot;inQuad&quot;,100]]"/>
+   </properties>
+  </object>
+  <object id="311" type="platform" gid="1073741855" x="274.847" y="1032.56" width="279" height="377" rotation="180"/>
+  <object id="314" type="platform" gid="28" x="1076.73" y="1409.38" width="281" height="12"/>
+  <object id="315" type="platform" gid="28" x="1357.73" y="1409.38" width="281" height="12"/>
+  <object id="316" type="platform" gid="28" x="1638.73" y="1409.38" width="355" height="12"/>
+  <object id="319" type="platform" gid="12" x="603.667" y="1409.67" width="241" height="122"/>
+  <object id="320" type="platform" gid="1073741836" x="1085.67" y="1287.67" width="241" height="122" rotation="180"/>
+  <object id="321" type="platform" gid="28" x="270.729" y="1409.38" width="333.886" height="12"/>
+  <object id="338" type="start" x="370" y="1338" width="100" height="50"/>
+ </objectgroup>
+</map>

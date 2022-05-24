@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="90" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="659">
+ <editorsettings>
+  <export target="level1-1.tmx" format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../../Currency.tsx"/>
+ <tileset firstgid="10" source="../../Enemies.tsx"/>
+ <tileset firstgid="18" source="../../Platforms.tsx"/>
+ <objectgroup id="2" name="Road">
+  <object id="505" type="start" x="662.788" y="940.51" width="75" height="50"/>
+  <object id="628" type="end" gid="8" x="2515" y="1364" width="153" height="1000"/>
+  <object id="599" type="enemy" gid="11" x="1630.05" y="1109.21" width="142.701" height="142.701">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionX" value="[[-250,1600,&quot;inOutQuad&quot;,0],[180,2000,&quot;inOutQuad&quot;,0]]"/>
+    <property name="animRotation" value="[[360,1200,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="600" type="enemy" gid="11" x="1109.05" y="1109.3" width="142.701" height="142.701">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionX" value="[[250,1600,&quot;inOutQuad&quot;,0],[-150,2000,&quot;inOutQuad&quot;,0]]"/>
+    <property name="animRotation" value="[[360,1200,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="601" type="platform" gid="33" x="1338.85" y="999.986" width="199.12" height="12"/>
+  <object id="593" type="platform" gid="34" x="480.905" y="1000" width="414" height="12"/>
+  <object id="602" type="platform" gid="44" x="1995.24" y="1001.29" width="279" height="377" rotation="-7.09605"/>
+  <object id="603" type="platform" gid="33" x="1921.2" y="1000.89" width="78.3592" height="13"/>
+  <object id="609" type="platform" gid="1073741868" x="290.732" y="997.463" width="279" height="377" rotation="180"/>
+  <object id="613" type="platform" gid="25" x="618.552" y="1374.57" width="241" height="122"/>
+  <object id="614" type="platform" gid="1073741849" x="1098.56" y="1252.57" width="241" height="122" rotation="180"/>
+  <object id="615" type="platform" gid="41" x="286.614" y="1374.28" width="333.886" height="12"/>
+  <object id="616" type="platform" gid="44" x="1342.92" y="889.372" width="280" height="378" rotation="-95"/>
+  <object id="617" type="platform" gid="2147483692" x="1576.39" y="610.772" width="280" height="378" rotation="96"/>
+  <object id="649" type="platform" gid="42" x="1097.56" y="1374.56" width="148.5" height="12"/>
+  <object id="650" type="platform" gid="42" x="1246.51" y="1374.56" width="148.5" height="12">
+   <properties>
+    <property name="animStartDelay" type="int" value="0"/>
+    <property name="physicsActive" type="bool" value="false"/>
+    <property name="physicsActiveDelay" type="float" value="18"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="651" type="platform" gid="42" x="1396.22" y="1374.56" width="148.5" height="12">
+   <properties>
+    <property name="animStartDelay" type="int" value="0"/>
+    <property name="physicsActive" type="bool" value="false"/>
+    <property name="physicsActiveDelay" type="float" value="18"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="652" type="platform" gid="42" x="1544.93" y="1374.56" width="148.5" height="12">
+   <properties>
+    <property name="animStartDelay" type="int" value="0"/>
+    <property name="physicsActive" type="bool" value="false"/>
+    <property name="physicsActiveDelay" type="float" value="18"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="653" type="platform" gid="42" x="1693.93" y="1374.56" width="148.5" height="12">
+   <properties>
+    <property name="animStartDelay" type="int" value="0"/>
+    <property name="physicsActive" type="bool" value="false"/>
+    <property name="physicsActiveDelay" type="float" value="18"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="654" type="platform" gid="42" x="1843" y="1374.56" width="1275.05" height="12"/>
+  <object id="655" type="platform" gid="53" x="893.92" y="1177" width="494" height="189"/>
+  <object id="656" type="platform" gid="53" x="1506.78" y="1177.01" width="494" height="189"/>
+  <object id="629" type="currency" gid="3" x="835" y="1247.5" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="630" type="currency" gid="3" x="1082.03" y="742.969" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="631" type="currency" gid="3" x="1205.03" y="804.969" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="632" type="currency" gid="3" x="1629.03" y="824.469" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="633" type="currency" gid="3" x="1752.03" y="761.469" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="634" type="currency" gid="3" x="2139.03" y="771.969" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="658" type="revive" gid="9" x="447.651" y="1363.22" width="40" height="154"/>
+ </objectgroup>
+</map>

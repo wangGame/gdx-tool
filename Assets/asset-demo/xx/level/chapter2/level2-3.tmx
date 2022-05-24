@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="170" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="553">
+ <editorsettings>
+  <export target="level1-1.tmx" format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../../Currency.tsx"/>
+ <tileset firstgid="4" source="../../Enemies.tsx"/>
+ <tileset firstgid="8" source="../../Grounds.tsx"/>
+ <tileset firstgid="24" source="../../Platforms.tsx"/>
+ <objectgroup id="3" name="Ground">
+  <object id="532" type="platform" gid="49" x="1603.77" y="1000" width="631" height="12"/>
+  <object id="533" type="platform" gid="48" x="2849.78" y="1000" width="973.915" height="12"/>
+  <object id="534" type="platform" gid="1073741867" x="2224.77" y="1000.96" width="220" height="110"/>
+  <object id="535" type="platform" gid="1073741865" x="2432.1" y="1001.14" width="426" height="214"/>
+  <object id="538" type="platform" gid="32" x="756.635" y="695.946" width="426" height="341" rotation="52.6204">
+   <properties>
+    <property name="animAnchorY" type="float" value="0.62"/>
+    <property name="animRotation" value="[[180,900,&quot;inOutQuad&quot;,0],[-180,900,&quot;inOutQuad&quot;,10000]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="539" type="platform" gid="2147483678" x="1284.6" y="999.877" width="321" height="158"/>
+ </objectgroup>
+ <objectgroup id="2" name="Road">
+  <object id="511" type="platform" gid="49" x="-1.569" y="1000" width="993.833" height="12"/>
+  <object id="527" type="start" x="93.8742" y="881.273" width="200" height="100"/>
+  <object id="528" type="end" x="5165.27" y="877.94" width="200" height="100"/>
+  <object id="529" type="revive" x="3287.4" y="869.151" width="200" height="100"/>
+  <object id="546" type="platform" gid="47" x="4378.14" y="995.969" width="1067.67" height="12"/>
+  <object id="548" type="platform" gid="32" x="3876.54" y="805.94" width="426" height="341"/>
+  <object id="549" type="platform" gid="48" x="4093.3" y="920.74" width="201.403" height="12" rotation="-35">
+   <properties>
+    <property name="animAnchorX" type="float" value="0"/>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animRotation" value="[[-111,500,&quot;inOutQuad&quot;,500]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="550" type="platform" gid="48" x="3823.6" y="999.99" width="280.006" height="12" rotation="-16.199"/>
+  <object id="551" type="platform" gid="2147483699" x="4245.76" y="1114.45" width="189" height="255" rotation="-39.8817"/>
+ </objectgroup>
+ <objectgroup id="4" name="Currency"/>
+</map>

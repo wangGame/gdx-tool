@@ -1,0 +1,27 @@
+
+bgx.png
+size: 1447,1700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+city1-1
+  rotate: false
+  xy: 4, 4
+  size: 1438, 519
+  orig: 1438, 519
+  offset: 0, 0
+  index: -1
+city1-2
+  rotate: false
+  xy: 4, 531
+  size: 1434, 560
+  orig: 1434, 560
+  offset: 0, 0
+  index: -1
+city1-3
+  rotate: false
+  xy: 4, 1099
+  size: 1439, 597
+  orig: 1439, 597
+  offset: 0, 0
+  index: -1

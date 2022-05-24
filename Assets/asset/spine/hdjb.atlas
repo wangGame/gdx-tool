@@ -1,0 +1,76 @@
+
+hdjb.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinbi1
+  rotate: false
+  xy: 144, 17
+  size: 44, 42
+  orig: 44, 42
+  offset: 0, 0
+  index: -1
+jinbi10
+  rotate: false
+  xy: 280, 17
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1
+jinbi2
+  rotate: false
+  xy: 2, 17
+  size: 46, 42
+  orig: 46, 42
+  offset: 0, 0
+  index: -1
+jinbi3
+  rotate: false
+  xy: 190, 17
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1
+jinbi4
+  rotate: false
+  xy: 325, 17
+  size: 36, 42
+  orig: 36, 42
+  offset: 0, 0
+  index: -1
+jinbi5
+  rotate: true
+  xy: 2, 2
+  size: 13, 42
+  orig: 13, 42
+  offset: 0, 0
+  index: -1
+jinbi6
+  rotate: false
+  xy: 363, 17
+  size: 36, 42
+  orig: 36, 42
+  offset: 0, 0
+  index: -1
+jinbi7
+  rotate: false
+  xy: 235, 17
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1
+jinbi8
+  rotate: false
+  xy: 50, 17
+  size: 46, 42
+  orig: 46, 42
+  offset: 0, 0
+  index: -1
+jinbi9
+  rotate: false
+  xy: 98, 17
+  size: 44, 42
+  orig: 44, 42
+  offset: 0, 0
+  index: -1

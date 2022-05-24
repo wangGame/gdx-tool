@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>shop/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{894,665},{65,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{65,74}</string>
+			</dict>
+			<key>shop/allunlocked.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,979},{691,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{691,87}</string>
+			</dict>
+			<key>shop/back.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{894,589},{74,72}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{74,72}</string>
+			</dict>
+			<key>shop/bg_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{367,418},{296,411}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{296,411}</string>
+			</dict>
+			<key>shop/bgdot.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{967,2},{27,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{31,32}</string>
+			</dict>
+			<key>shop/che.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{667,589},{223,132}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{223,132}</string>
+			</dict>
+			<key>shop/derby.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{667,725},{129,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{129,39}</string>
+			</dict>
+			<key>shop/dot.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{967,34},{27,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{27,28}</string>
+			</dict>
+			<key>shop/light.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{361,426}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{361,426}</string>
+			</dict>
+			<key>shop/page1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{511,1070},{504,106}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{504,106}</string>
+			</dict>
+			<key>shop/page2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,1180},{504,106}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{504,106}</string>
+			</dict>
+			<key>shop/page3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,1070},{505,106}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{505,106}</string>
+			</dict>
+			<key>shop/selection.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{367,2},{296,412}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{296,412}</string>
+			</dict>
+			<key>shop/unlock_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{667,2},{296,412}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{296,412}</string>
+			</dict>
+			<key>shop/unlock600.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{510,1257},{481,73}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{481,73}</string>
+			</dict>
+			<key>shop/unlock750.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{510,1180},{482,73}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{482,73}</string>
+			</dict>
+			<key>shop/unlock900.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,1290},{481,73}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{481,73}</string>
+			</dict>
+			<key>shop/yuanjiaojuxing_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,833},{563,142}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{563,142}</string>
+			</dict>
+			<key>shop/yuanjiaojuxing_2_kaobei.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{569,833},{365,142}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{365,142}</string>
+			</dict>
+			<key>shop/zhanshitaiche.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{667,418},{287,167}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{287,167}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>shop.png</string>
+			<key>realTextureFileName</key>
+			<string>shop.png</string>
+			<key>size</key>
+			<string>{1017,1365}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1017</integer>
+			<key>height</key>
+			<integer>1365</integer>
+		</dict>
+	</dict>
+</plist>

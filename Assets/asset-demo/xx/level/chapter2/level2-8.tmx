@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="170" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="657">
+ <editorsettings>
+  <export target="level1-1.tmx" format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../../Currency.tsx"/>
+ <tileset firstgid="4" source="../../Enemies.tsx"/>
+ <tileset firstgid="8" source="../../Grounds.tsx"/>
+ <tileset firstgid="24" source="../../Platforms.tsx"/>
+ <objectgroup id="3" name="Ground"/>
+ <objectgroup id="2" name="Road">
+  <object id="511" type="platform" gid="49" x="-1.569" y="1000" width="727.166" height="12"/>
+  <object id="527" type="start" x="169.874" y="865.273" width="200" height="100"/>
+  <object id="528" type="end" x="5186.89" y="870.018" width="200" height="100"/>
+  <object id="638" type="platform" gid="2147483679" x="1385.84" y="1000.26" width="241" height="122"/>
+  <object id="639" type="platform" gid="43" x="1154.7" y="928.33" width="220" height="110" rotation="-344.436"/>
+  <object id="640" type="platform" gid="51" x="719.072" y="999.76" width="189" height="255" rotation="15.6321"/>
+  <object id="641" type="platform" gid="38" x="1625.17" y="999.76" width="236.667" height="12"/>
+  <object id="642" type="platform" gid="50" x="1857.63" y="1000.58" width="279" height="377"/>
+  <object id="643" type="platform" gid="2147483698" x="2537.63" y="1000.58" width="279" height="377"/>
+  <object id="644" type="platform" gid="41" x="2550.23" y="412.686" width="426" height="214" rotation="180"/>
+  <object id="646" type="platform" gid="39" x="2811.25" y="999.628" width="529" height="12"/>
+  <object id="648" type="platform" gid="25" x="3332.88" y="1000.81" width="186" height="186"/>
+  <object id="649" type="platform" gid="25" x="3508.88" y="825.806" width="186" height="186">
+   <properties>
+    <property name="animGroundChild" type="int" value="157"/>
+    <property name="animPositionX" value="[[105,1200,&quot;inOutQuad&quot;,0],[-105,1200,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="650" type="platform" gid="25" x="3813.88" y="650.806" width="186" height="186">
+   <properties>
+    <property name="animGroundChild" type="int" value="184"/>
+    <property name="animPositionX" value="[[-150,1200,&quot;inOutQuad&quot;,0],[150,1200,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="651" type="platform" gid="25" x="3989.88" y="475.806" width="186" height="186">
+   <properties>
+    <property name="animGroundChild" type="int" value="186"/>
+    <property name="animPositionX" value="[[150,1200,&quot;inOutQuad&quot;,0],[-150,1200,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="652" type="platform" gid="2147483673" x="4159.88" y="475.806" width="186" height="186">
+   <properties>
+    <property name="animGroundChild" type="int" value="189"/>
+    <property name="animPositionX" value="[[150,1200,&quot;inOutQuad&quot;,0],[-150,1200,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="653" type="platform" gid="47" x="4668.05" y="999.306" width="777.333" height="12"/>
+  <object id="654" type="platform" gid="2147483699" x="4488.97" y="1045.63" width="189" height="255" rotation="-14.2343"/>
+  <object id="655" type="enemy" gid="5" x="4447.38" y="616.306" width="418" height="418">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[360,2000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="656" type="revive" x="2998" y="880" width="200" height="100"/>
+ </objectgroup>
+ <objectgroup id="4" name="Currency"/>
+</map>

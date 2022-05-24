@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="42" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="322">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="1" name="Ground"/>
+ <objectgroup id="2" name="Top">
+  <object id="284" type="platform" gid="10" x="108.967" y="1000.94" width="186" height="186"/>
+  <object id="301" type="platform" gid="24" x="-1.33333" y="1000" width="118.333" height="12"/>
+  <object id="302" type="platform" gid="2147483658" x="471.969" y="1001.94" width="186" height="186"/>
+  <object id="303" type="platform" gid="2147483658" x="1118.97" y="1001.94" width="186" height="186"/>
+  <object id="304" type="platform" gid="24" x="648.578" y="1001.44" width="116.778" height="12"/>
+  <object id="305" type="platform" gid="10" x="755.967" y="1001.94" width="186" height="186"/>
+  <object id="306" type="platform" gid="24" x="1295.13" y="1001.44" width="52.3333" height="12"/>
+  <object id="311" type="enemy" gid="3" x="295.467" y="888.444" width="176.321" height="128">
+   <properties>
+    <property name="animRotation" value="[[360,2500,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="312" type="enemy" gid="3" x="943.467" y="888.444" width="176.321" height="128">
+   <properties>
+    <property name="animRotation" value="[[360,2500,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Currency">
+  <object id="319" type="currency" gid="65" x="629.217" y="968.694" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="320" type="currency" gid="65" x="686.967" y="985.694" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="321" type="currency" gid="65" x="751.967" y="969.194" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

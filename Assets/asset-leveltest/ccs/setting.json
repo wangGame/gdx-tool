@@ -1,0 +1,354 @@
+{
+  "ID": "c2b2e2f2-2efe-4e98-baaf-c402b7822479",
+  "Version": "3.10.0.0",
+  "Name": "setting",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 230,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tanchuang/commonbg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 23,
+            "Scale9OriginY": 30,
+            "Scale9Width": 14,
+            "Scale9Height": 43,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 359.5,
+              "Y": 637.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4993,
+              "Y": 0.498
+            },
+            "PreSize": {
+              "X": 0.6431,
+              "Y": 0.4148
+            },
+            "LeftMargin": 128.0,
+            "RightMargin": 129.0,
+            "TopMargin": 377.0,
+            "BottomMargin": 372.0,
+            "Tag": 246,
+            "ActionTag": 440493245,
+            "Size": {
+              "X": 463.0,
+              "Y": 531.0
+            },
+            "Name": "bg_2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tanchuang/yinlang.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 462.5,
+              "Y": 702.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6424,
+              "Y": 0.5484
+            },
+            "PreSize": {
+              "X": 0.1625,
+              "Y": 0.0938
+            },
+            "LeftMargin": 404.0,
+            "RightMargin": 199.0,
+            "TopMargin": 518.0,
+            "BottomMargin": 642.0,
+            "Tag": 240,
+            "ActionTag": -852813776,
+            "Size": {
+              "X": 117.0,
+              "Y": 120.0
+            },
+            "Name": "yinxiao",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tanchuang/tuichu.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 469.5,
+              "Y": 506.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6521,
+              "Y": 0.3953
+            },
+            "PreSize": {
+              "X": 0.1792,
+              "Y": 0.0969
+            },
+            "LeftMargin": 405.0,
+            "RightMargin": 186.0,
+            "TopMargin": 712.0,
+            "BottomMargin": 444.0,
+            "Tag": 241,
+            "ActionTag": 105937198,
+            "Size": {
+              "X": 129.0,
+              "Y": 124.0
+            },
+            "Name": "tuichu",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tanchuang/yinyue.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 266.0,
+              "Y": 693.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3694,
+              "Y": 0.5418
+            },
+            "PreSize": {
+              "X": 0.1556,
+              "Y": 0.0992
+            },
+            "LeftMargin": 210.0,
+            "RightMargin": 398.0,
+            "TopMargin": 523.0,
+            "BottomMargin": 630.0,
+            "Tag": 242,
+            "ActionTag": -610948941,
+            "Size": {
+              "X": 112.0,
+              "Y": 127.0
+            },
+            "Name": "yinyue",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tanchuang/lingjiang.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 275.0,
+              "Y": 511.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3819,
+              "Y": 0.3996
+            },
+            "PreSize": {
+              "X": 0.175,
+              "Y": 0.0977
+            },
+            "LeftMargin": 212.0,
+            "RightMargin": 382.0,
+            "TopMargin": 706.0,
+            "BottomMargin": 449.0,
+            "Tag": 243,
+            "ActionTag": 1731397826,
+            "Size": {
+              "X": 126.0,
+              "Y": 125.0
+            },
+            "Name": "chengji",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tanchuang/settings.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 359.5,
+              "Y": 848.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4993,
+              "Y": 0.6625
+            },
+            "PreSize": {
+              "X": 0.3597,
+              "Y": 0.0344
+            },
+            "LeftMargin": 230.0,
+            "RightMargin": 231.0,
+            "TopMargin": 410.0,
+            "BottomMargin": 826.0,
+            "Tag": 244,
+            "ActionTag": 1120825049,
+            "Size": {
+              "X": 259.0,
+              "Y": 44.0
+            },
+            "Name": "settings",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tanchuang/close_3.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 540.0,
+              "Y": 852.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.75,
+              "Y": 0.6656
+            },
+            "PreSize": {
+              "X": 0.0889,
+              "Y": 0.05
+            },
+            "LeftMargin": 508.0,
+            "RightMargin": 148.0,
+            "TopMargin": 396.0,
+            "BottomMargin": 820.0,
+            "Tag": 245,
+            "ActionTag": -84006283,
+            "Size": {
+              "X": 64.0,
+              "Y": 64.0
+            },
+            "Name": "close",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "tanchuang/close_3.png",
+        "tanchuang/commonbg.png",
+        "tanchuang/lingjiang.png",
+        "tanchuang/settings.png",
+        "tanchuang/tuichu.png",
+        "tanchuang/yinlang.png",
+        "tanchuang/yinyue.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

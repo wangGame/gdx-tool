@@ -1,0 +1,13 @@
+
+star.png
+size: 277,266
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+f_star_c
+  rotate: false
+  xy: 2, 2
+  size: 273, 262
+  orig: 273, 262
+  offset: 0, 0
+  index: -1

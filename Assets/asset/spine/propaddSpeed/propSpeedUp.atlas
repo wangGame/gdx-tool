@@ -1,0 +1,20 @@
+
+propSpeedUp1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lz
+  rotate: false
+  xy: 2, 2
+  size: 75, 15
+  orig: 75, 15
+  offset: 0, 0
+  index: -1
+y
+  rotate: false
+  xy: 2, 19
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1

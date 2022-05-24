@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="180" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="704">
+ <editorsettings>
+  <export target="level1-1.tmx" format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../../Currency.tsx"/>
+ <tileset firstgid="10" source="../../Enemies.tsx"/>
+ <tileset firstgid="18" source="../../Platforms.tsx"/>
+ <objectgroup id="2" name="Road">
+  <object id="527" type="start" x="250" y="939" width="75" height="50"/>
+  <object id="653" type="revive" gid="9" x="1456.64" y="1321.74" width="40" height="154"/>
+  <object id="654" type="end" gid="8" x="4725.76" y="724.273" width="153" height="1000"/>
+  <object id="625" type="platform" gid="42" x="4409.55" y="736.213" width="1500" height="12"/>
+  <object id="638" type="platform" gid="38" x="1485.92" y="1108.33" width="220" height="220">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="641" type="platform" gid="2147483692" x="1173.93" y="1333.01" width="279" height="377"/>
+  <object id="642" type="platform" gid="41" x="1446.95" y="1332.31" width="460" height="12"/>
+  <object id="643" type="platform" gid="38" x="1185.92" y="908.333" width="220" height="220">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="644" type="platform" gid="38" x="1485.92" y="708.333" width="220" height="220">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="645" type="platform" gid="38" x="1184.92" y="508.333" width="220" height="220">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="647" type="platform" gid="35" x="2656.04" y="1062.74" width="426" height="214" rotation="-392.28">
+   <properties>
+    <property name="animAnchorY" type="float" value="0"/>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[60,500,&quot;inOutQuad&quot;,1000],[-60,500,&quot;inOutQuad&quot;,1000]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="immediate" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="648" type="platform" gid="44" x="1899.62" y="1332.3" width="279" height="377" rotation="18.3982"/>
+  <object id="649" type="platform" gid="32" x="2281.53" y="1064.74" width="114.903" height="12" rotation="-63.0682"/>
+  <object id="650" type="platform" gid="35" x="3264.04" y="1062.74" width="426" height="214" rotation="-392.28">
+   <properties>
+    <property name="animAnchorY" type="float" value="0"/>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[60,500,&quot;inOutQuad&quot;,1000],[-60,500,&quot;inOutQuad&quot;,1000]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="immediate" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="656" type="platform" gid="38" x="1785.92" y="908.333" width="220" height="220">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="695" type="platform" gid="35" x="3869.93" y="1071.29" width="426" height="214" rotation="-392.28">
+   <properties>
+    <property name="animAnchorY" type="float" value="0"/>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[60,500,&quot;inOutQuad&quot;,1000],[-60,500,&quot;inOutQuad&quot;,1000]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="immediate" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="657" type="platform" gid="38" x="1785.92" y="508.333" width="220" height="220">
+   <properties>
+    <property name="dontDieOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="665" type="currecy" gid="3" x="1273.92" y="634.333" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="667" type="currency" gid="3" x="1273.92" y="1034.33" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="673" type="currency" gid="3" x="2634.67" y="948.833" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="675" type="currency" gid="3" x="2778.67" y="941.833" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="676" type="currency" gid="3" x="3251.17" y="951.833" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="678" type="currency" gid="3" x="3385.17" y="937.833" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="683" type="currency" gid="3" x="1573.92" y="432.383" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="684" type="currency" gid="3" x="1597.92" y="820.383" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="687" type="currency" gid="3" x="1874.92" y="634.813" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="688" type="currency" gid="3" x="1874.92" y="1034.81" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="698" type="currency" gid="3" x="3857.06" y="960.383" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="699" type="currency" gid="3" x="3991.06" y="949.383" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="700" type="platform" gid="41" x="0" y="1000" width="750" height="12"/>
+  <object id="701" type="platform" gid="44" x="742.831" y="1000.36" width="279" height="377" rotation="10.6388"/>
+  <object id="703" type="platform" gid="41" x="1084.76" y="687.061" width="341.102" height="12" rotation="-70"/>
+ </objectgroup>
+ <objectgroup id="4" name="Currency"/>
+</map>

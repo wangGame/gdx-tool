@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="145" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="348">
+ <tileset firstgid="1" source="../../../../asset-leveltest/levels/Enemies.tsx"/>
+ <tileset firstgid="5" source="../../../../asset-leveltest/levels/Platforms.tsx"/>
+ <tileset firstgid="54" source="../../../../asset-leveltest/levels/Grounds.tsx"/>
+ <objectgroup id="2" name="Top">
+  <object id="144" type="platform" gid="30" x="350" y="1374" width="144" height="12"/>
+  <object id="254" type="platform" gid="30" x="1555.33" y="1374" width="238.667" height="12"/>
+  <object id="251" type="platform" gid="7" x="484.5" y="1374" width="244" height="130"/>
+  <object id="259" type="platform" gid="7" x="902.5" y="1374" width="244" height="130"/>
+  <object id="261" type="platform" gid="7" x="1320.5" y="1374" width="244" height="130"/>
+  <object id="258" type="platform" gid="29" x="720.023" y="1374" width="191.954" height="12"/>
+  <object id="260" type="platform" gid="29" x="1137.02" y="1374" width="192.621" height="12"/>
+  <object id="285" type="platform" gid="1073741831" x="705.5" y="1150" width="244" height="130">
+   <properties>
+    <property name="animGroundChild" type="int" value="288"/>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[500,1000,&quot;outBounce&quot;,1500],[-500,400,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="286" type="platform" gid="1073741831" x="1541.5" y="1150" width="244" height="130">
+   <properties>
+    <property name="animGroundChild" type="int" value="290"/>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[500,1000,&quot;outBounce&quot;,1500],[-500,400,&quot;inOutQuad&quot;,0]]"/>
+    <property name="animStartDelay" type="int" value="1400"/>
+   </properties>
+  </object>
+  <object id="287" type="platform" gid="1073741831" x="1123.5" y="1150" width="244" height="130">
+   <properties>
+    <property name="animGroundChild" type="int" value="289"/>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[500,1000,&quot;outBounce&quot;,1500],[-500,400,&quot;inOutQuad&quot;,0]]"/>
+    <property name="animStartDelay" type="int" value="700"/>
+   </properties>
+  </object>
+  <object id="292" type="platform" gid="31" x="1790.06" y="1373.9" width="279" height="377"/>
+  <object id="293" type="platform" gid="1073741855" x="2402.06" y="1156.9" width="279" height="377" rotation="180"/>
+  <object id="295" type="platform" gid="32" x="2394.48" y="1533.02" width="189" height="255" rotation="-333.555"/>
+  <object id="297" type="platform" gid="19" x="2841.47" y="1302.71" width="83" height="12"/>
+  <object id="298" type="platform" gid="19" x="2926.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="299" type="platform" gid="19" x="3096.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="300" type="platform" gid="19" x="3011.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="301" type="platform" gid="19" x="3351.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="302" type="platform" gid="19" x="3266.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="303" type="platform" gid="19" x="3181.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="304" type="platform" gid="19" x="3436.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="305" type="platform" gid="19" x="3691.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="306" type="platform" gid="19" x="3521.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="307" type="platform" gid="19" x="3606.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="308" type="platform" gid="19" x="3776.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="309" type="platform" gid="19" x="4201.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="310" type="platform" gid="19" x="3946.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="311" type="platform" gid="19" x="4116.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="312" type="platform" gid="19" x="4031.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="313" type="platform" gid="19" x="3861.47" y="1302.71" width="83" height="12">
+   <properties>
+    <property name="physicsActiveDelay" value="80"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="314" type="platform" gid="1073741836" x="351.262" y="1252" width="241" height="122" rotation="180"/>
+  <object id="315" type="platform" gid="30" x="-33.0104" y="1264.18" width="144" height="12"/>
+  <object id="317" type="platform" gid="28" x="705.564" y="588.992" width="439.553" height="12" rotation="90">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[500,1000,&quot;outBounce&quot;,1500],[-500,400,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="318" type="platform" gid="28" x="936.564" y="588.992" width="439.553" height="12" rotation="90">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[500,1000,&quot;outBounce&quot;,1500],[-500,400,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="319" type="platform" gid="28" x="1124.56" y="588.992" width="439.553" height="12" rotation="90">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[500,1000,&quot;outBounce&quot;,1500],[-500,400,&quot;inOutQuad&quot;,0]]"/>
+    <property name="animStartDelay" type="int" value="700"/>
+   </properties>
+  </object>
+  <object id="320" type="platform" gid="28" x="1354.56" y="588.992" width="439.553" height="12" rotation="90">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[500,1000,&quot;outBounce&quot;,1500],[-500,400,&quot;inOutQuad&quot;,0]]"/>
+    <property name="animStartDelay" type="int" value="700"/>
+   </properties>
+  </object>
+  <object id="321" type="platform" gid="28" x="1541.56" y="588.992" width="439.553" height="12" rotation="90">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[500,1000,&quot;outBounce&quot;,1500],[-500,400,&quot;inOutQuad&quot;,0]]"/>
+    <property name="animStartDelay" type="int" value="1400"/>
+   </properties>
+  </object>
+  <object id="322" type="platform" gid="28" x="1772.56" y="588.992" width="439.553" height="12" rotation="90">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[500,1000,&quot;outBounce&quot;,1500],[-500,400,&quot;inOutQuad&quot;,0]]"/>
+    <property name="animStartDelay" type="int" value="1400"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

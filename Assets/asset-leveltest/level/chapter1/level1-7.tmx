@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="33" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="294">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="5" source="../../Platforms.tsx"/>
+ <tileset firstgid="52" source="../../Grounds.tsx"/>
+ <objectgroup id="2" name="Top">
+  <object id="272" type="platform" gid="20" x="-3" y="1374" width="56" height="12"/>
+  <object id="283" type="platform" gid="28" x="715.959" y="1374" width="344.082" height="12"/>
+  <object id="280" type="platform" gid="11" x="50" y="1374" width="321" height="158"/>
+  <object id="281" type="platform" gid="41" x="715" y="1099" width="321" height="130" rotation="-180">
+   <properties>
+    <property name="animAnchorY" type="float" value="0"/>
+    <property name="animRotation" value="[[360,3500,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="293" type="start" x="2.28148" y="1298.84" width="100" height="50"/>
+ </objectgroup>
+</map>

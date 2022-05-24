@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="40" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="299">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="5" source="../../Platforms.tsx"/>
+ <tileset firstgid="52" source="../../Grounds.tsx"/>
+ <objectgroup id="2" name="Top">
+  <object id="272" type="platform" gid="20" x="-90.7582" y="1374" width="143.758" height="12"/>
+  <object id="283" type="platform" gid="28" x="939.959" y="1374" width="344.082" height="12"/>
+  <object id="280" type="platform" gid="11" x="50" y="1374.5" width="321" height="158"/>
+  <object id="291" type="platform" gid="34" x="432.171" y="1271.76" width="234" height="51" rotation="-35.8959">
+   <properties>
+    <property name="animRotation" value="[[360,4000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="292" type="platform" gid="34" x="856.3" y="1038.44" width="234" height="51" rotation="-168.169">
+   <properties>
+    <property name="animRotation" value="[[-360,4000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="293" type="platform" gid="34" x="926.446" y="1011.29" width="234" height="51" rotation="-650.896">
+   <properties>
+    <property name="animRotation" value="[[360,4000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="294" type="platform" gid="34" x="669.71" y="1221.46" width="234" height="51" rotation="40.7407">
+   <properties>
+    <property name="animRotation" value="[[360,4000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="298" type="start" x="-60" y="1302" width="100" height="50"/>
+ </objectgroup>
+</map>

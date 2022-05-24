@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>play/04_58.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{354,2},{119,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{119,40}</string>
+			</dict>
+			<key>play/052.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{217,115}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{217,115}</string>
+			</dict>
+			<key>play/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{477,2},{68,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{68,61}</string>
+			</dict>
+			<key>play/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{354,46},{68,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{68,61}</string>
+			</dict>
+			<key>play/50_58_.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,121},{162,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{162,40}</string>
+			</dict>
+			<key>play/558.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{762,2},{79,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{79,40}</string>
+			</dict>
+			<key>play/best.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{657,2},{101,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{101,39}</string>
+			</dict>
+			<key>play/cup.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{845,2},{56,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{56,48}</string>
+			</dict>
+			<key>play/flag.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{168,121},{42,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{42,48}</string>
+			</dict>
+			<key>play/pause.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{223,2},{127,133}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{127,133}</string>
+			</dict>
+			<key>play/score.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,165},{141,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{141,39}</string>
+			</dict>
+			<key>play/shalou.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{426,46},{34,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{34,48}</string>
+			</dict>
+			<key>play/time.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{549,2},{104,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{104,39}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>play.png</string>
+			<key>realTextureFileName</key>
+			<string>play.png</string>
+			<key>size</key>
+			<string>{903,206}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>903</integer>
+			<key>height</key>
+			<integer>206</integer>
+		</dict>
+	</dict>
+</plist>

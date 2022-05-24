@@ -1,0 +1,960 @@
+{
+  "ID": "59da3c65-56d4-4937-b1d9-9b7e9aca1106",
+  "Version": "3.10.0.0",
+  "Name": "finish_11",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "success/level_12.png",
+              "Plist": "plist/success.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 539.5,
+              "Y": 1631.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4995,
+              "Y": 0.8497
+            },
+            "PreSize": {
+              "X": 0.3565,
+              "Y": 0.038
+            },
+            "LeftMargin": 347.0,
+            "RightMargin": 348.0,
+            "TopMargin": 252.0,
+            "BottomMargin": 1595.0,
+            "Tag": 51,
+            "Size": {
+              "X": 385.0,
+              "Y": 73.0
+            },
+            "Name": "level_12",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 539.97,
+              "Y": 1367.0699
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.712
+            },
+            "PreSize": {
+              "X": 0.7769,
+              "Y": 0.1167
+            },
+            "LeftMargin": 120.47,
+            "RightMargin": 120.53,
+            "TopMargin": 440.9301,
+            "BottomMargin": 1255.0699,
+            "Tag": 93,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "success/star_3.png",
+                  "Plist": "plist/success.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 718.7534,
+                  "Y": 110.315
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8567,
+                  "Y": 0.4925
+                },
+                "PreSize": {
+                  "X": 0.2849,
+                  "Y": 0.9554
+                },
+                "LeftMargin": 599.2534,
+                "RightMargin": 0.7466,
+                "TopMargin": 6.685,
+                "BottomMargin": 3.315,
+                "Tag": 107,
+                "ActionTag": 1981056592,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 214.0
+                },
+                "Name": "star_3_bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "success/star_3.png",
+                  "Plist": "plist/success.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 421.77,
+                  "Y": 111.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5027,
+                  "Y": 0.497
+                },
+                "PreSize": {
+                  "X": 0.2849,
+                  "Y": 0.9554
+                },
+                "LeftMargin": 302.27,
+                "RightMargin": 297.73,
+                "TopMargin": 5.68,
+                "BottomMargin": 4.32,
+                "Tag": 108,
+                "ActionTag": 1742540537,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 214.0
+                },
+                "Name": "star_2_bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "success/star_3.png",
+                  "Plist": "plist/success.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 124.77,
+                  "Y": 111.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1487,
+                  "Y": 0.497
+                },
+                "PreSize": {
+                  "X": 0.2849,
+                  "Y": 0.9554
+                },
+                "LeftMargin": 5.27,
+                "RightMargin": 594.73,
+                "TopMargin": 5.68,
+                "BottomMargin": 4.32,
+                "Tag": 109,
+                "ActionTag": -1462070231,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 214.0
+                },
+                "Name": "star_1_bg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "success/star_1.png",
+                  "Plist": "plist/success.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 124.7717,
+                  "Y": 111.3159
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1487,
+                  "Y": 0.4969
+                },
+                "PreSize": {
+                  "X": 0.2849,
+                  "Y": 0.9554
+                },
+                "LeftMargin": 5.2717,
+                "RightMargin": 594.7283,
+                "TopMargin": 5.6841,
+                "BottomMargin": 4.3159,
+                "Tag": 46,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 214.0
+                },
+                "Name": "star_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "success/star_1.png",
+                  "Plist": "plist/success.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 421.7675,
+                  "Y": 111.3159
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5027,
+                  "Y": 0.4969
+                },
+                "PreSize": {
+                  "X": 0.2849,
+                  "Y": 0.9554
+                },
+                "LeftMargin": 302.2675,
+                "RightMargin": 297.7325,
+                "TopMargin": 5.6841,
+                "BottomMargin": 4.3159,
+                "Tag": 47,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 214.0
+                },
+                "Name": "star_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "success/star_1.png",
+                  "Plist": "plist/success.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 718.7546,
+                  "Y": 111.3159
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8567,
+                  "Y": 0.4969
+                },
+                "PreSize": {
+                  "X": 0.2849,
+                  "Y": 0.9554
+                },
+                "LeftMargin": 599.2546,
+                "RightMargin": 0.7454,
+                "TopMargin": 5.6841,
+                "BottomMargin": 4.3159,
+                "Tag": 48,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 214.0
+                },
+                "Name": "star_3",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -220451255,
+            "Size": {
+              "X": 839.0,
+              "Y": 224.0
+            },
+            "Name": "xingxing",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 522.6267,
+              "Y": 1090.8223
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4839,
+              "Y": 0.5681
+            },
+            "PreSize": {
+              "X": 0.4796,
+              "Y": 0.0312
+            },
+            "LeftMargin": 263.6267,
+            "RightMargin": 298.3733,
+            "TopMargin": 799.1777,
+            "BottomMargin": 1060.8223,
+            "Tag": 94,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "success/your_time.png",
+                  "Plist": "plist/success.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 151.9073,
+                  "Y": 29.8132
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2933,
+                  "Y": 0.4969
+                },
+                "PreSize": {
+                  "X": 0.5811,
+                  "Y": 0.8167
+                },
+                "LeftMargin": 1.4073,
+                "RightMargin": 215.5927,
+                "TopMargin": 5.6868,
+                "BottomMargin": 5.3132,
+                "Tag": 42,
+                "Size": {
+                  "X": 301.0,
+                  "Y": 49.0
+                },
+                "Name": "your_time_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "success/04_58.png",
+                  "Plist": "plist/success.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 439.3957,
+                  "Y": 29.3149
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8483,
+                  "Y": 0.4886
+                },
+                "PreSize": {
+                  "X": 0.2857,
+                  "Y": 0.8333
+                },
+                "LeftMargin": 365.3957,
+                "RightMargin": 4.6043,
+                "TopMargin": 5.6851,
+                "BottomMargin": 4.3149,
+                "Tag": 44,
+                "Size": {
+                  "X": 148.0,
+                  "Y": 50.0
+                },
+                "Name": "10_00_0",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -976268188,
+            "Size": {
+              "X": 518.0,
+              "Y": 60.0
+            },
+            "Name": "yourscore",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 533.8774,
+              "Y": 963.7196
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4943,
+              "Y": 0.5019
+            },
+            "PreSize": {
+              "X": 0.4324,
+              "Y": 0.0281
+            },
+            "LeftMargin": 300.3774,
+            "RightMargin": 312.6226,
+            "TopMargin": 929.2804,
+            "BottomMargin": 936.7196,
+            "Tag": 95,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "success/next_star.png",
+                  "Plist": "plist/success.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 114.9707,
+                  "Y": 27.1789
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2462,
+                  "Y": 0.5033
+                },
+                "PreSize": {
+                  "X": 0.4732,
+                  "Y": 0.7222
+                },
+                "LeftMargin": 4.4707,
+                "RightMargin": 241.5293,
+                "TopMargin": 7.3211,
+                "BottomMargin": 7.6789,
+                "Tag": 43,
+                "Size": {
+                  "X": 221.0,
+                  "Y": 39.0
+                },
+                "Name": "next_star_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "success/04_58_1.png",
+                  "Plist": "plist/success.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 402.9977,
+                  "Y": 27.6757
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.863,
+                  "Y": 0.5125
+                },
+                "PreSize": {
+                  "X": 0.2548,
+                  "Y": 0.7407
+                },
+                "LeftMargin": 343.4977,
+                "RightMargin": 4.5023,
+                "TopMargin": 6.3243,
+                "BottomMargin": 7.6757,
+                "Tag": 45,
+                "Size": {
+                  "X": 119.0,
+                  "Y": 40.0
+                },
+                "Name": "15_00_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "success/bestscore.png",
+                  "Plist": "plist/success.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 118.4868,
+                  "Y": 26.5025
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2537,
+                  "Y": 0.4908
+                },
+                "PreSize": {
+                  "X": 0.5268,
+                  "Y": 0.7222
+                },
+                "LeftMargin": -4.5132,
+                "RightMargin": 225.5132,
+                "TopMargin": 7.9975,
+                "BottomMargin": 7.0025,
+                "Tag": 110,
+                "ActionTag": 306544301,
+                "Size": {
+                  "X": 246.0,
+                  "Y": 39.0
+                },
+                "Name": "best_time",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 303549561,
+            "Size": {
+              "X": 467.0,
+              "Y": 54.0
+            },
+            "Name": "nextstar",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 539.5,
+              "Y": 681.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4995,
+              "Y": 0.3547
+            },
+            "PreSize": {
+              "X": 0.7083,
+              "Y": 0.074
+            },
+            "LeftMargin": 157.0,
+            "RightMargin": 158.0,
+            "TopMargin": 1168.0,
+            "BottomMargin": 610.0,
+            "Tag": 111,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "success/yuanjiaojuxing_2_kaobei.png",
+                  "Plist": "plist/success.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 381.7483,
+                  "Y": 70.521
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.499,
+                  "Y": 0.4966
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "LeftMargin": -0.7517,
+                "RightMargin": 0.7517,
+                "TopMargin": 0.479,
+                "BottomMargin": -0.479,
+                "Tag": 49,
+                "Size": {
+                  "X": 765.0,
+                  "Y": 142.0
+                },
+                "Name": "yuanjiaojuxing_2_kaobei",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "success/next.png",
+                  "Plist": "plist/success.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 381.7478,
+                  "Y": 73.5213
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.499,
+                  "Y": 0.5178
+                },
+                "PreSize": {
+                  "X": 0.1974,
+                  "Y": 0.4085
+                },
+                "LeftMargin": 306.2478,
+                "RightMargin": 307.7522,
+                "TopMargin": 39.4787,
+                "BottomMargin": 44.5213,
+                "Tag": 50,
+                "Size": {
+                  "X": 151.0,
+                  "Y": 58.0
+                },
+                "Name": "next",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -378308797,
+            "Size": {
+              "X": 765.0,
+              "Y": 142.0
+            },
+            "Name": "next_btn",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "success/menu.png",
+              "Plist": "plist/success.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 958.5,
+              "Y": 116.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8875,
+              "Y": 0.0607
+            },
+            "PreSize": {
+              "X": 0.1176,
+              "Y": 0.0693
+            },
+            "LeftMargin": 895.0,
+            "RightMargin": 58.0,
+            "TopMargin": 1737.0,
+            "BottomMargin": 50.0,
+            "Tag": 56,
+            "Size": {
+              "X": 127.0,
+              "Y": 133.0
+            },
+            "Name": "level",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "success/again.png",
+              "Plist": "plist/success.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 122.5,
+              "Y": 116.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1134,
+              "Y": 0.0607
+            },
+            "PreSize": {
+              "X": 0.1176,
+              "Y": 0.0693
+            },
+            "LeftMargin": 59.0,
+            "RightMargin": 894.0,
+            "TopMargin": 1737.0,
+            "BottomMargin": 50.0,
+            "Tag": 57,
+            "Size": {
+              "X": 127.0,
+              "Y": 133.0
+            },
+            "Name": "reset",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "finish_11",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plist/success.plist",
+        "plist/success.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

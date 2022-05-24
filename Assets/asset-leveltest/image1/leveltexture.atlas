@@ -1,0 +1,398 @@
+
+leveltexture.png
+size: 1604,1541
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+levels/Tiled_Assets/enemy_1
+  rotate: false
+  xy: 4, 54
+  size: 387, 64
+  orig: 429, 106
+  offset: 21, 21
+  index: -1
+levels/Tiled_Assets/enemy_2
+  rotate: false
+  xy: 4, 893
+  size: 644, 644
+  orig: 686, 686
+  offset: 21, 21
+  index: -1
+levels/Tiled_Assets/enemy_3
+  rotate: false
+  xy: 4, 429
+  size: 644, 456
+  orig: 686, 498
+  offset: 21, 21
+  index: -1
+levels/Tiled_Assets/enemy_4
+  rotate: false
+  xy: 1448, 362
+  size: 123, 207
+  orig: 165, 249
+  offset: 21, 21
+  index: -1
+levels/Tiled_Assets/pf_1
+  rotate: false
+  xy: 1432, 577
+  size: 119, 120
+  orig: 119, 120
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_10_large
+  rotate: false
+  xy: 1377, 879
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_10_medium
+  rotate: false
+  xy: 985, 250
+  size: 150, 151
+  orig: 150, 151
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_10_small
+  rotate: false
+  xy: 1145, 125
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_11_large
+  rotate: false
+  xy: 4, 34
+  size: 281, 12
+  orig: 281, 12
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_11_medium
+  rotate: false
+  xy: 450, 146
+  size: 188, 12
+  orig: 188, 12
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_11_small
+  rotate: false
+  xy: 450, 126
+  size: 141, 12
+  orig: 141, 12
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_12_large
+  rotate: false
+  xy: 656, 811
+  size: 279, 377
+  orig: 279, 377
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_12_medium
+  rotate: false
+  xy: 450, 166
+  size: 189, 255
+  orig: 189, 255
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_12_small
+  rotate: false
+  xy: 1448, 161
+  size: 143, 193
+  orig: 143, 193
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_13-1_large
+  rotate: false
+  xy: 643, 57
+  size: 234, 51
+  orig: 234, 51
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_13-1_medium
+  rotate: false
+  xy: 643, 11
+  size: 160, 38
+  orig: 160, 38
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_13-1_small
+  rotate: false
+  xy: 943, 1157
+  size: 122, 31
+  orig: 122, 31
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_13-2_large
+  rotate: false
+  xy: 943, 4
+  size: 138, 158
+  orig: 138, 158
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_13-2_medium
+  rotate: false
+  xy: 1269, 133
+  size: 94, 108
+  orig: 94, 108
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_13-2_small
+  rotate: false
+  xy: 1339, 41
+  size: 74, 84
+  orig: 74, 84
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_14_large
+  rotate: false
+  xy: 1090, 1107
+  size: 480, 190
+  orig: 480, 190
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_14_medium
+  rotate: false
+  xy: 647, 268
+  size: 321, 130
+  orig: 321, 130
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_14_small
+  rotate: false
+  xy: 1159, 313
+  size: 241, 102
+  orig: 241, 102
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_15_large
+  rotate: false
+  xy: 1374, 705
+  size: 166, 166
+  orig: 166, 166
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_15_medium
+  rotate: false
+  xy: 399, 4
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_15_small
+  rotate: false
+  xy: 1145, 28
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_16_large
+  rotate: false
+  xy: 985, 409
+  size: 166, 166
+  orig: 166, 166
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_16_medium
+  rotate: false
+  xy: 521, 4
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_16_small
+  rotate: false
+  xy: 1242, 28
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_17_large
+  rotate: false
+  xy: 1089, 34
+  size: 48, 119
+  orig: 48, 119
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_17_medium
+  rotate: false
+  xy: 1568, 791
+  size: 32, 80
+  orig: 32, 80
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_17_small
+  rotate: false
+  xy: 1568, 723
+  size: 24, 60
+  orig: 24, 60
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_18_large
+  rotate: false
+  xy: 1090, 1305
+  size: 481, 232
+  orig: 481, 232
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_18_medium
+  rotate: false
+  xy: 656, 406
+  size: 321, 158
+  orig: 321, 158
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_18_small
+  rotate: false
+  xy: 1159, 423
+  size: 241, 122
+  orig: 241, 122
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_2
+  rotate: false
+  xy: 1180, 691
+  size: 186, 186
+  orig: 186, 186
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_3
+  rotate: false
+  xy: 1180, 553
+  size: 244, 130
+  orig: 244, 130
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_4
+  rotate: false
+  xy: 1143, 249
+  size: 218, 56
+  orig: 218, 56
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_5
+  rotate: false
+  xy: 4, 14
+  size: 249, 12
+  orig: 249, 12
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_7_large
+  rotate: false
+  xy: 656, 1196
+  size: 426, 341
+  orig: 426, 341
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_7_medium
+  rotate: false
+  xy: 656, 572
+  size: 288, 231
+  orig: 288, 231
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_7_small
+  rotate: false
+  xy: 952, 701
+  size: 220, 176
+  orig: 220, 176
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_8-1_large
+  rotate: false
+  xy: 1579, 1297
+  size: 12, 240
+  orig: 12, 240
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_8-1_medium
+  rotate: false
+  xy: 1548, 710
+  size: 12, 161
+  orig: 12, 161
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_8-1_small
+  rotate: false
+  xy: 1578, 1168
+  size: 12, 121
+  orig: 12, 121
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_8-1_xl
+  rotate: false
+  xy: 1408, 245
+  size: 12, 300
+  orig: 12, 300
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_8-1_xxl
+  rotate: false
+  xy: 1428, 170
+  size: 12, 375
+  orig: 12, 375
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_8-2_large
+  rotate: false
+  xy: 293, 34
+  size: 83, 12
+  orig: 83, 12
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_8-2_medium
+  rotate: false
+  xy: 261, 14
+  size: 56, 12
+  orig: 56, 12
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_8-2_small
+  rotate: false
+  xy: 885, 96
+  size: 42, 12
+  orig: 42, 12
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_9_large
+  rotate: false
+  xy: 943, 885
+  size: 426, 214
+  orig: 426, 214
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_9_medium
+  rotate: false
+  xy: 647, 116
+  size: 288, 144
+  orig: 288, 144
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_9_small
+  rotate: false
+  xy: 952, 583
+  size: 220, 110
+  orig: 220, 110
+  offset: 0, 0
+  index: -1
+levels/Tiled_Assets/pf_speed_boost_1
+  rotate: false
+  xy: 943, 1136
+  size: 85, 13
+  orig: 243, 180
+  offset: 79, 84
+  index: -1
+levels/Tiled_Assets/pickup_currency
+  rotate: false
+  xy: 1421, 76
+  size: 53, 77
+  orig: 81, 106
+  offset: 14, 14
+  index: -1
+levels/Tiled_Assets/yuan
+  rotate: false
+  xy: 4, 126
+  size: 438, 295
+  orig: 538, 415
+  offset: 60, 54
+  index: -1

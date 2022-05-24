@@ -1,0 +1,34 @@
+
+xz.png
+size: 1279,375
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xuanwo2
+  rotate: false
+  xy: 371, 24
+  size: 337, 349
+  orig: 351, 351
+  offset: 0, 0
+  index: -1
+xuanwo22
+  rotate: false
+  xy: 710, 47
+  size: 315, 326
+  orig: 351, 351
+  offset: 0, 24
+  index: -1
+xuanwo4
+  rotate: false
+  xy: 2, 2
+  size: 367, 371
+  orig: 400, 400
+  offset: 28, 0
+  index: -1
+xuanwo8
+  rotate: false
+  xy: 1027, 123
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1

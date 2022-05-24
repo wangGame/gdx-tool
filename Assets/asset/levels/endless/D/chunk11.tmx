@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="38" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="289">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="1" name="Ground"/>
+ <objectgroup id="2" name="Top">
+  <object id="144" type="platform" gid="34" x="-3" y="1000" width="128" height="12"/>
+  <object id="268" type="platform" gid="34" x="1081.61" y="1000" width="136.274" height="12"/>
+  <object id="265" type="platform" gid="10" x="287.935" y="827.041" width="186" height="186"/>
+  <object id="266" type="platform" gid="10" x="729.954" y="638.734" width="186" height="186" rotation="-270"/>
+  <object id="282" type="platform" gid="10" x="114.935" y="1000.04" width="186" height="186"/>
+  <object id="283" type="platform" gid="10" x="904.953" y="813.738" width="186" height="186" rotation="-270"/>
+  <object id="269" type="enemy" gid="3" x="509.435" y="703.541" width="192" height="139.382">
+   <properties>
+    <property name="animRotation" value="[[360,3000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Currency">
+  <object id="286" type="currency" gid="65" x="516.768" y="570.208" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="287" type="currency" gid="65" x="580.768" y="557.708" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="288" type="currency" gid="65" x="644.768" y="571.208" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="46" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="238">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="1" name="Ground"/>
+ <objectgroup id="2" name="Top">
+  <object id="216" type="platform" gid="25" x="1443.32" y="1000" width="30" height="12"/>
+  <object id="223" type="platform" gid="23" x="-2.08333" y="1000" width="271.083" height="12"/>
+  <object id="228" type="platform" gid="19" x="489.419" y="625.558" width="220" height="176" rotation="5"/>
+  <object id="229" type="platform" gid="26" x="661.239" y="891.468" width="426" height="214" rotation="-34.295"/>
+  <object id="230" type="platform" gid="28" x="412.169" y="356.443" width="220" height="110" rotation="48.21"/>
+  <object id="231" type="platform" gid="2147483664" x="1209.93" y="1000.97" width="241" height="122"/>
+  <object id="237" type="platform" gid="23" x="545.784" y="706.229" width="403.419" height="12" rotation="135"/>
+ </objectgroup>
+ <objectgroup id="3" name="Currency">
+  <object id="224" type="currency" gid="65" x="897.483" y="361.43" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="225" type="currency" gid="65" x="960.347" y="355.419" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="226" type="currency" gid="65" x="1025.48" y="390.305" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="227" type="currency" gid="65" x="1080.26" y="457.368" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,62 @@
+
+chapter4.png
+size: 2206,411
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4-1
+  rotate: false
+  xy: 1333, 18
+  size: 441, 175
+  orig: 453, 331
+  offset: 6, 134
+  index: -1
+4-2
+  rotate: false
+  xy: 1318, 201
+  size: 441, 206
+  orig: 453, 331
+  offset: 6, 46
+  index: -1
+4-3
+  rotate: false
+  xy: 435, 122
+  size: 426, 285
+  orig: 453, 331
+  offset: 12, 1
+  index: -1
+4-4
+  rotate: false
+  xy: 884, 4
+  size: 441, 134
+  orig: 453, 331
+  offset: 6, 92
+  index: -1
+4-5
+  rotate: false
+  xy: 435, 12
+  size: 441, 102
+  orig: 453, 331
+  offset: 6, 129
+  index: -1
+4-6
+  rotate: false
+  xy: 4, 77
+  size: 423, 330
+  orig: 453, 330
+  offset: 24, 0
+  index: -1
+4-7
+  rotate: false
+  xy: 869, 146
+  size: 441, 261
+  orig: 453, 330
+  offset: 6, 48
+  index: -1
+4-8
+  rotate: false
+  xy: 1767, 211
+  size: 435, 196
+  orig: 453, 330
+  offset: 6, 86
+  index: -1

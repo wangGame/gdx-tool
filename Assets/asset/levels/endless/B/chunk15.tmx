@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="70" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="246">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="2" name="Top">
+  <object id="107" type="platform" gid="14" x="139.005" y="1000.86" width="481" height="232"/>
+  <object id="144" type="platform" gid="34" x="-1" y="1000" width="141" height="12"/>
+  <object id="212" type="platform" gid="33" x="622.505" y="781.362" width="188" height="12">
+   <properties>
+    <property name="physicsActiveDelay" type="int" value="10"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="219" type="platform" gid="33" x="816.505" y="803.362" width="188" height="12">
+   <properties>
+    <property name="physicsActiveDelay" type="int" value="10"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="220" type="platform" gid="33" x="1010.5" y="826.362" width="188" height="12">
+   <properties>
+    <property name="physicsActiveDelay" type="int" value="10"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="221" type="platform" gid="33" x="1204.5" y="849.362" width="188" height="12">
+   <properties>
+    <property name="physicsActiveDelay" type="int" value="10"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="222" type="platform" gid="33" x="1399.5" y="871.362" width="188" height="12">
+   <properties>
+    <property name="physicsActiveDelay" type="int" value="10"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="223" type="platform" gid="33" x="1593.5" y="895.362" width="188" height="12">
+   <properties>
+    <property name="physicsActiveDelay" type="int" value="10"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="224" type="platform" gid="33" x="1787.5" y="919.362" width="188" height="12">
+   <properties>
+    <property name="physicsActiveDelay" type="int" value="10"/>
+    <property name="physicsActiveOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="225" type="platform" gid="34" x="2010.8" y="1000" width="230.078" height="12"/>
+ </objectgroup>
+ <objectgroup id="3" name="Currency">
+  <object id="240" type="currency" gid="65" x="827.505" y="780.862" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="241" type="currency" gid="65" x="1025.5" y="805.862" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="242" type="currency" gid="65" x="1217.5" y="828.862" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="243" type="currency" gid="65" x="1411.5" y="850.862" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="244" type="currency" gid="65" x="1602" y="875.362" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="245" type="currency" gid="65" x="1801.25" y="900.612" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

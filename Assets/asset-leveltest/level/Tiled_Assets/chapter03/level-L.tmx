@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="102" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="343">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="5" source="../../Platforms.tsx"/>
+ <tileset firstgid="52" source="../../Grounds.tsx"/>
+ <objectgroup id="2" name="Top">
+  <object id="223" type="platform" gid="30" x="-2.83333" y="1374" width="141" height="12"/>
+  <object id="226" type="finish" gid="6" x="2991.77" y="1353" width="162" height="90"/>
+  <object id="287" type="platform" gid="28" x="2858" y="1368" width="498.333" height="12"/>
+  <object id="297" type="platform" gid="29" x="138" y="1374" width="188" height="12">
+   <properties>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animPositionY" value="[[-200,500,&quot;inOutQuad&quot;,200]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="dontDieOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="298" type="platform" gid="29" x="327" y="1275" width="188" height="12">
+   <properties>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animPositionY" value="[[-200,500,&quot;inOutQuad&quot;,200]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="dontDieOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="300" type="platform" gid="29" x="516" y="1176" width="188" height="12">
+   <properties>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animPositionY" value="[[-200,500,&quot;inOutQuad&quot;,200]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="dontDieOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="301" type="platform" gid="29" x="705" y="1077" width="188" height="12">
+   <properties>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animPositionY" value="[[-200,500,&quot;inOutQuad&quot;,200]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="dontDieOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="307" type="platform" gid="29" x="1083" y="879" width="188" height="12">
+   <properties>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animPositionY" value="[[-200,500,&quot;inOutQuad&quot;,200]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="dontDieOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="309" type="platform" gid="29" x="1272" y="780" width="188" height="12">
+   <properties>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animPositionY" value="[[-200,500,&quot;inOutQuad&quot;,200]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="dontDieOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="310" type="platform" gid="29" x="894" y="978" width="188" height="12">
+   <properties>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animPositionY" value="[[-200,500,&quot;inOutQuad&quot;,200]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="dontDieOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="317" type="platform" gid="29" x="1839" y="483" width="188" height="12">
+   <properties>
+    <property name="animAnchorX" type="float" value="0"/>
+    <property name="animAnchorY" type="float" value="1"/>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animPositionY" value="[[800,1200,&quot;inOutQuad&quot;,500]]"/>
+    <property name="animRotation" value="[[90,500,&quot;outQuad&quot;,1200]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="dontDieOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="318" type="platform" gid="29" x="1650" y="582" width="188" height="12">
+   <properties>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animPositionY" value="[[-200,500,&quot;inOutQuad&quot;,200]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="dontDieOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="319" type="platform" gid="29" x="1461" y="681" width="188" height="12">
+   <properties>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animPositionY" value="[[-200,500,&quot;inOutQuad&quot;,200]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+    <property name="dontDieOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="321" type="platform" gid="2147483679" x="1933.45" y="1325.89" width="279" height="377"/>
+  <object id="322" type="platform" gid="34" x="2226.04" y="1362.87" width="234" height="51" rotation="-25.5205"/>
+  <object id="342" type="start" x="58" y="1301" width="100" height="50"/>
+ </objectgroup>
+</map>

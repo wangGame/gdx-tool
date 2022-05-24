@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="34" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="198">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="1" name="Ground"/>
+ <objectgroup id="2" name="Top">
+  <object id="167" type="platform" gid="33" x="979.204" y="1000" width="112.193" height="12"/>
+  <object id="197" type="platform" gid="23" x="-1" y="1000" width="373.75" height="12"/>
+  <object id="187" type="platform" gid="12" x="413.829" y="1023.03" width="218" height="56" rotation="-61.85"/>
+  <object id="188" type="platform" gid="12" x="165.293" y="766.598" width="218" height="56" rotation="-332.553"/>
+  <object id="189" type="platform" gid="12" x="582.129" y="902.678" width="218" height="56" rotation="-362.585"/>
+  <object id="190" type="platform" gid="28" x="1003.68" y="700.025" width="220" height="110" rotation="-132.788"/>
+  <object id="191" type="platform" gid="39" x="746.006" y="617.455" width="160" height="38" rotation="78.34"/>
+  <object id="192" type="platform" gid="34" x="143.555" y="593.68" width="141" height="12" rotation="-288.444"/>
+  <object id="193" type="platform" gid="34" x="862.429" y="885.488" width="163.329" height="12" rotation="-315.6"/>
+ </objectgroup>
+ <objectgroup id="3" name="Currency">
+  <object id="183" type="currency" gid="65" x="772.164" y="674.167" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="184" type="currency" gid="65" x="778.664" y="716.667" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="185" type="currency" gid="65" x="806.164" y="752.417" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

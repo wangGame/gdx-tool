@@ -1,0 +1,181 @@
+
+js.png
+size: 740,156
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gd2_0
+  rotate: false
+  xy: 2, 54
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_1
+  rotate: true
+  xy: 2, 2
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_10
+  rotate: true
+  xy: 308, 2
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_11
+  rotate: false
+  xy: 314, 54
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_12
+  rotate: false
+  xy: 366, 54
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_13
+  rotate: true
+  xy: 410, 2
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_14
+  rotate: false
+  xy: 418, 54
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_2
+  rotate: false
+  xy: 54, 54
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_3
+  rotate: true
+  xy: 104, 2
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_4
+  rotate: false
+  xy: 106, 54
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_5
+  rotate: false
+  xy: 158, 54
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_6
+  rotate: true
+  xy: 206, 2
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_7
+  rotate: false
+  xy: 210, 54
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_8
+  rotate: false
+  xy: 262, 54
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd2_9
+  rotate: false
+  xy: 470, 54
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+gd_0
+  rotate: true
+  xy: 512, 2
+  size: 50, 100
+  orig: 50, 100
+  offset: 0, 0
+  index: -1
+js_0
+  rotate: true
+  xy: 522, 79
+  size: 75, 40
+  orig: 75, 40
+  offset: 0, 0
+  index: -1
+js_1
+  rotate: true
+  xy: 564, 79
+  size: 75, 40
+  orig: 75, 40
+  offset: 0, 0
+  index: -1
+js_2
+  rotate: true
+  xy: 606, 79
+  size: 75, 40
+  orig: 75, 40
+  offset: 0, 0
+  index: -1
+js_3
+  rotate: true
+  xy: 614, 2
+  size: 75, 40
+  orig: 75, 40
+  offset: 0, 0
+  index: -1
+js_4
+  rotate: true
+  xy: 648, 79
+  size: 75, 40
+  orig: 75, 40
+  offset: 0, 0
+  index: -1
+js_5
+  rotate: true
+  xy: 656, 2
+  size: 75, 40
+  orig: 75, 40
+  offset: 0, 0
+  index: -1
+js_6
+  rotate: true
+  xy: 690, 79
+  size: 75, 40
+  orig: 75, 40
+  offset: 0, 0
+  index: -1
+js_7
+  rotate: true
+  xy: 698, 2
+  size: 75, 40
+  orig: 75, 40
+  offset: 0, 0
+  index: -1
+lz
+  rotate: false
+  xy: 522, 69
+  size: 38, 8
+  orig: 38, 8
+  offset: 0, 0
+  index: -1

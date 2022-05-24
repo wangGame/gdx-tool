@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="120" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="442">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="5" source="../../Platforms.tsx"/>
+ <tileset firstgid="54" source="../../Grounds.tsx"/>
+ <tileset firstgid="70" source="../../Currency.tsx"/>
+ <objectgroup id="2" name="Top">
+  <object id="233" type="platform" gid="30" x="4.30569" y="557.102" width="152.699" height="12"/>
+  <object id="322" type="platform" gid="29" x="3177.42" y="1470.52" width="492.837" height="12"/>
+  <object id="405" type="platform" gid="2147483679" x="341.733" y="1398" width="279" height="377"/>
+  <object id="406" type="platform" gid="32" x="697" y="1398.5" width="189" height="255"/>
+  <object id="407" type="platform" gid="19" x="617.677" y="1397.63" width="83" height="12"/>
+  <object id="417" type="platform" gid="2147483681" x="996.721" y="1271.32" width="143" height="193" rotation="-14.6972"/>
+  <object id="418" type="platform" gid="2147483658" x="1130.34" y="1454.45" width="481" height="232">
+   <properties>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animRotation" value="[[-60,300,&quot;inOutQuad&quot;,2000]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="420" type="platform" gid="23" x="1754.39" y="1453.21" width="288" height="144" rotation="270"/>
+  <object id="421" type="platform" gid="2147483681" x="1107.13" y="1621.96" width="143" height="193" rotation="-66.3629"/>
+  <object id="422" type="platform" gid="34" x="786.491" y="1358.37" width="234" height="51" rotation="-298.132"/>
+  <object id="424" type="platform" gid="13" x="2217.38" y="1068.67" width="426" height="341" rotation="135">
+   <properties>
+    <property name="animAnchorY" type="float" value="0.62"/>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animRotation" value="[[90,100,&quot;inOutQuad&quot;,300]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="426" type="platform" gid="13" x="2647.38" y="1068.67" width="426" height="341" rotation="135">
+   <properties>
+    <property name="animAnchorY" type="float" value="0.62"/>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animRotation" value="[[90,100,&quot;inOutQuad&quot;,300]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="427" type="platform" gid="13" x="3081.38" y="1068.67" width="426" height="341" rotation="135">
+   <properties>
+    <property name="animAnchorY" type="float" value="0.62"/>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animRotation" value="[[127,100,&quot;inOutQuad&quot;,300]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="441" type="start" x="47.2386" y="462.945" width="76" height="88"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="200" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="367">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="5" source="../../Platforms.tsx"/>
+ <tileset firstgid="54" source="../../Grounds.tsx"/>
+ <objectgroup id="2" name="Top">
+  <object id="228" type="platform" gid="28" x="3468" y="1506" width="281" height="12"/>
+  <object id="233" type="finish" gid="5" x="6265.78" y="901.252" width="162" height="90"/>
+  <object id="252" type="platform" gid="28" x="23.2208" y="1587.28" width="281" height="12"/>
+  <object id="254" type="platform" gid="10" x="303.498" y="1588" width="481" height="232"/>
+  <object id="255" type="platform" gid="2147483660" x="783.384" y="1478.58" width="241" height="122"/>
+  <object id="257" type="platform" gid="11" x="923.818" y="1347.95" width="321" height="158"/>
+  <object id="258" type="platform" gid="33" x="1240.5" y="1201.82" width="143" height="193" rotation="15.4369"/>
+  <object id="260" type="platform" gid="12" x="1022.53" y="1478.68" width="241" height="122"/>
+  <object id="261" type="platform" gid="2147483660" x="1263.38" y="1479" width="241" height="122"/>
+  <object id="262" type="platform" gid="33" x="1304.71" y="1303.87" width="143" height="193" rotation="16.2093"/>
+  <object id="263" type="platform" gid="33" x="1499.44" y="1479" width="143" height="193" rotation="15.4369"/>
+  <object id="264" type="enemy" gid="2" x="1690.47" y="1417.07" width="168.509" height="163">
+   <properties>
+    <property name="animPositionY" value="[[-290,300,&quot;inOutQuad&quot;,700],[290,300,&quot;inOutQuad&quot;,100]]"/>
+    <property name="animRotation" value="[[360,1200,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="267" type="platform" gid="2147483659" x="1816.99" y="1394.2" width="321" height="158" rotation="7.5091"/>
+  <object id="268" type="platform" gid="33" x="2131.87" y="1435.82" width="143" height="193" rotation="17.5538"/>
+  <object id="270" type="platform" gid="23" x="1553.51" y="1099.64" width="288" height="144" rotation="7.85708"/>
+  <object id="272" type="platform" gid="2147483681" x="2324.25" y="1487.54" width="143" height="193"/>
+  <object id="273" type="platform" gid="12" x="2463.19" y="1487.1" width="241" height="122" rotation="13.1327"/>
+  <object id="274" type="platform" gid="13" x="2092.55" y="996.939" width="426" height="341" rotation="33">
+   <properties>
+    <property name="animAnchorY" type="float" value="0.62"/>
+    <property name="animLoops" type="int" value="1"/>
+    <property name="animRotation" value="[[-118,500,&quot;inOutQuad&quot;,1200]]"/>
+    <property name="animStartOnCollision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="275" type="enemy" gid="2" x="2739.61" y="1562.26" width="230.395" height="222.863">
+   <properties>
+    <property name="animRotation" value="[[360,1200,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="276" type="platform" gid="2147483659" x="2592.26" y="1338" width="321" height="158"/>
+  <object id="277" type="platform" gid="33" x="2909.38" y="1337.96" width="143" height="193" rotation="16.2925"/>
+  <object id="280" type="platform" gid="2147483679" x="3193.89" y="1533.06" width="279" height="377" rotation="-5.59884"/>
+  <object id="281" type="platform" gid="23" x="3510.02" y="1429.3" width="288" height="144" rotation="327.368"/>
+  <object id="283" type="enemy" gid="2" x="1781.06" y="879.407" width="168.509" height="163">
+   <properties>
+    <property name="animRotation" value="[[360,1200,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="291" type="enemy" gid="2" x="3481.18" y="1181.4" width="216.097" height="209.032">
+   <properties>
+    <property name="animRotation" value="[[360,1200,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="292" type="platform" gid="11" x="4349.07" y="1277.74" width="321" height="158"/>
+  <object id="293" type="platform" gid="2147483660" x="4231.82" y="1414.8" width="241" height="122" rotation="2.08017"/>
+  <object id="294" type="platform" gid="10" x="3748.28" y="1506.5" width="481" height="232" rotation="2.08017"/>
+  <object id="295" type="platform" gid="11" x="4809.24" y="1111" width="321" height="158"/>
+  <object id="296" type="platform" gid="2147483660" x="4668.81" y="1241.63" width="241" height="122"/>
+  <object id="297" type="platform" gid="11" x="5128.95" y="965.263" width="321" height="158"/>
+  <object id="298" type="platform" gid="2147483660" x="5448.69" y="929.153" width="241" height="122"/>
+  <object id="299" type="platform" gid="11" x="5589.12" y="798.523" width="321" height="158"/>
+  <object id="300" type="platform" gid="11" x="4908.64" y="1241.2" width="321" height="158"/>
+  <object id="301" type="platform" gid="2147483660" x="5228.38" y="1205.09" width="241" height="122"/>
+  <object id="305" type="enemy" gid="3" x="5336.45" y="943.141" width="296.728" height="215.409" rotation="75.5542">
+   <properties>
+    <property name="animRotation" value="[[-360,2700,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="306" type="enemy" gid="2" x="5897.17" y="668.005" width="168.509" height="163">
+   <properties>
+    <property name="animRotation" value="[[360,1200,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="307" type="platform" gid="11" x="5031.26" y="1407.2" width="321" height="158" rotation="2.08017"/>
+  <object id="308" type="platform" gid="11" x="4470.73" y="1423.2" width="321" height="158" rotation="2.08017"/>
+  <object id="309" type="platform" gid="2147483660" x="4791.57" y="1398.72" width="241" height="122" rotation="2.08017"/>
+  <object id="310" type="platform" gid="2147483660" x="5352.1" y="1382.52" width="241" height="122" rotation="2.08017"/>
+  <object id="311" type="platform" gid="11" x="5591.01" y="1390.93" width="321" height="158" rotation="2.08017"/>
+  <object id="312" type="enemy" gid="2" x="5913.27" y="1274.11" width="168.509" height="163">
+   <properties>
+    <property name="animRotation" value="[[360,1200,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="313" type="platform" gid="31" x="5464.9" y="1204.12" width="279" height="377" rotation="373.813"/>
+  <object id="314" type="platform" gid="2147483681" x="5840" y="764.933" width="143" height="193" rotation="101.243"/>
+  <object id="316" type="platform" gid="2147483660" x="6026.09" y="924.232" width="241" height="122"/>
+  <object id="317" type="platform" gid="29" x="6265.96" y="923.698" width="369.962" height="12"/>
+  <object id="318" type="enemy" gid="3" x="5287.34" y="752.504" width="296.728" height="215.409" rotation="75.5542">
+   <properties>
+    <property name="animRotation" value="[[-360,2700,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="320" type="platform" gid="21" x="5689.45" y="928.933" width="42" height="12" rotation="-25.7225"/>
+  <object id="326" type="enemy" gid="2" x="4569.08" y="991.833" width="168.509" height="163">
+   <properties>
+    <property name="animPositionY" value="[[290,300,&quot;inOutQuad&quot;,700],[-290,300,&quot;inOutQuad&quot;,100]]"/>
+    <property name="animRotation" value="[[360,1200,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="321" type="enemy" gid="3" x="1378.98" y="966.563" width="296.728" height="215.409" rotation="82.5761">
+   <properties>
+    <property name="animRotation" value="[[360,3000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="322" type="enemy" gid="3" x="1093.61" y="1557.85" width="332.903" height="241.67">
+   <properties>
+    <property name="animRotation" value="[[360,3000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="323" type="enemy" gid="3" x="2189.5" y="795.968" width="417.39" height="303.003" rotation="90">
+   <properties>
+    <property name="animRotation" value="[[-360,2700,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="324" type="enemy" gid="3" x="4652.17" y="1204.51" width="376.983" height="273.67" rotation="-270">
+   <properties>
+    <property name="animRotation" value="[[360,3000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="366" type="start" x="93" y="1515" width="100" height="50"/>
+ </objectgroup>
+</map>

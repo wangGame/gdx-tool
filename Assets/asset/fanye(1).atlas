@@ -1,0 +1,62 @@
+
+fanye.png
+size: 405,87
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di1
+  rotate: false
+  xy: 190, 29
+  size: 83, 56
+  orig: 83, 56
+  offset: 0, 0
+  index: -1
+di2
+  rotate: false
+  xy: 107, 4
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+huan1
+  rotate: false
+  xy: 348, 61
+  size: 9, 24
+  orig: 9, 24
+  offset: 0, 0
+  index: -1
+huan2
+  rotate: false
+  xy: 348, 35
+  size: 8, 24
+  orig: 8, 24
+  offset: 0, 0
+  index: -1
+jiao
+  rotate: false
+  xy: 275, 34
+  size: 71, 51
+  orig: 71, 51
+  offset: 0, 0
+  index: -1
+up
+  rotate: false
+  xy: 275, 2
+  size: 87, 30
+  orig: 87, 30
+  offset: 0, 0
+  index: -1
+ying
+  rotate: true
+  xy: 364, 5
+  size: 80, 39
+  orig: 80, 39
+  offset: 0, 0
+  index: -1
+zhi
+  rotate: false
+  xy: 2, 4
+  size: 103, 81
+  orig: 103, 81
+  offset: 0, 0
+  index: -1

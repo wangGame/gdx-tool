@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>getcoin/bg_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{969,690}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{969,690}</string>
+			</dict>
+			<key>getcoin/button_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,696},{765,142}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{765,142}</string>
+			</dict>
+			<key>getcoin/claim.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{771,696},{183,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{183,58}</string>
+			</dict>
+			<key>getcoin/close_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{958,696},{62,62}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{62,62}</string>
+			</dict>
+			<key>getcoin/coin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{902,762},{77,72}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{77,72}</string>
+			</dict>
+			<key>getcoin/free_coins.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,967},{487,73}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{487,73}</string>
+			</dict>
+			<key>getcoin/watch_a_vi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,842},{711,121}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{711,121}</string>
+			</dict>
+			<key>getcoin/x30.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{771,758},{127,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{127,58}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>getcoin.png</string>
+			<key>realTextureFileName</key>
+			<string>getcoin.png</string>
+			<key>size</key>
+			<string>{1022,1042}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1022</integer>
+			<key>height</key>
+			<integer>1042</integer>
+		</dict>
+	</dict>
+</plist>

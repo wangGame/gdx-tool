@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="18" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="149">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <objectgroup id="1" name="Ground"/>
+ <objectgroup id="2" name="Top">
+  <object id="120" type="platform" gid="2147483664" x="239.963" y="1000" width="241" height="122"/>
+  <object id="118" type="platform" gid="2147483664" x="1.11598" y="891" width="241" height="122"/>
+  <object id="142" type="start" x="243.784" y="815.918" width="75" height="50"/>
+  <object id="148" gid="23" x="475.035" y="999" width="104.367" height="12"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="200" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="667">
+ <editorsettings>
+  <export target="level1-1.tmx" format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../../Currency.tsx"/>
+ <tileset firstgid="10" source="../../Enemies.tsx"/>
+ <tileset firstgid="18" source="../../Platforms.tsx"/>
+ <objectgroup id="2" name="Road">
+  <object id="538" type="platform" gid="22" x="0" y="1000" width="700" height="12"/>
+  <object id="568" type="platform" gid="22" x="5535.27" y="1047.55" width="1500" height="12"/>
+  <object id="615" type="platform" gid="42" x="2089.5" y="1024.06" width="292.771" height="12"/>
+  <object id="616" type="platform" gid="46" x="695.149" y="1000.62" width="143" height="193" rotation="5.62379"/>
+  <object id="618" type="platform" gid="2147483692" x="1826.41" y="1100.83" width="279" height="377" rotation="-16.1852"/>
+  <object id="645" type="revive" gid="9" x="2232" y="1012" width="40" height="154"/>
+  <object id="646" type="end" gid="8" x="5805.09" y="1035.6" width="153" height="1000"/>
+  <object id="664" type="start" x="250" y="939" width="75" height="50"/>
+  <object id="619" type="platform" gid="45" x="1168.85" y="582.535" width="189" height="255" rotation="3.02405"/>
+  <object id="620" type="platform" gid="42" x="855.826" y="825.256" width="259.244" height="12" rotation="-76.4418"/>
+  <object id="622" type="platform" gid="41" x="907.51" y="582.056" width="265.5" height="12"/>
+  <object id="623" type="platform" gid="41" x="1526.23" y="351.856" width="208.138" height="12" rotation="-296.829"/>
+  <object id="624" type="platform" gid="41" x="1619.77" y="536.815" width="229.336" height="12" rotation="-296.83"/>
+  <object id="626" type="platform" gid="32" x="1370.27" y="341.182" width="84" height="12" rotation="-77.75"/>
+  <object id="627" type="platform" gid="23" x="2381.21" y="1024.92" width="481" height="232"/>
+  <object id="628" type="platform" gid="21" x="2863.71" y="864.923" width="218" height="56">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionX" value="[[-150,2000,&quot;inOutQuad&quot;,0]"/>
+   </properties>
+  </object>
+  <object id="630" type="platform" gid="21" x="3207.71" y="864.923" width="218" height="56">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionX" value="[[150,2000,&quot;inOutQuad&quot;,0],[-100,2000,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="631" type="platform" gid="21" x="3549.71" y="888.923" width="218" height="56">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionX" value="[[250,1500,&quot;inOutQuad&quot;,0],[250,2000,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="632" type="platform" gid="21" x="3772.71" y="888.923" width="218" height="56">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionX" value="[[-250,1500,&quot;inOutQuad&quot;,0],[-250,2000,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="638" type="platform" gid="38" x="4805.6" y="958.616" width="220" height="220">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionX" value="[[600,1000,&quot;inOutQuad&quot;,0]"/>
+   </properties>
+  </object>
+  <object id="639" type="platform" gid="25" x="4241.01" y="878.713" width="241" height="122">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+   </properties>
+  </object>
+  <object id="640" type="platform" gid="2147483671" x="5536.21" y="816.423" width="481" height="232" rotation="180"/>
+  <object id="652" type="currecy" gid="3" x="1338.84" y="240.667" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="653" type="currecy" gid="3" x="1374.5" y="67.6667" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="658" type="currecy" gid="3" x="4536.84" y="721.334" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="659" type="currecy" gid="3" x="4982.49" y="712.334" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="662" type="currecy" gid="3" x="1410.49" y="-103" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="643" type="boost" gid="7" x="630.583" y="987.583" width="68" height="34">
+   <properties>
+    <property name="addSpeed" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="644" type="boost" gid="7" x="1357.42" y="336.417" width="68" height="34" rotation="-77.75">
+   <properties>
+    <property name="addSpeed" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

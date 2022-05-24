@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="53" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="313">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="5" source="../../Platforms.tsx"/>
+ <tileset firstgid="52" source="../../Grounds.tsx"/>
+ <objectgroup id="2" name="Top">
+  <object id="272" type="platform" gid="20" x="-3" y="1374" width="56" height="12"/>
+  <object id="283" type="platform" gid="28" x="1355.96" y="1374" width="344.082" height="12"/>
+  <object id="280" type="platform" gid="11" x="50" y="1374.5" width="321" height="158"/>
+  <object id="298" type="platform" gid="28" x="445" y="1208" width="281" height="12">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[360,7000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="303" type="platform" gid="28" x="818" y="1165" width="281" height="12" rotation="90">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[360,7000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="305" type="platform" gid="28" x="1081.5" y="1290.5" width="281" height="12" rotation="-90">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[360,7000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="308" type="platform" gid="28" x="1297.5" y="1362.5" width="281" height="12" rotation="-180">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[360,7000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="312" type="start" x="17.219" y="1288.51" width="100" height="50"/>
+ </objectgroup>
+</map>

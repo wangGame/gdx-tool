@@ -1,0 +1,20 @@
+
+fallsmoke1.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack_bz12
+  rotate: false
+  xy: 2, 2
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
+attack_bz6
+  rotate: false
+  xy: 104, 46
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1

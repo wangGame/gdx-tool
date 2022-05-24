@@ -1,0 +1,13 @@
+
+xiaoshi.png
+size: 58,57
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+star_1
+  rotate: false
+  xy: 2, 2
+  size: 54, 53
+  orig: 54, 53
+  offset: 0, 0
+  index: -1

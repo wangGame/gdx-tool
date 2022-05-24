@@ -1,0 +1,120 @@
+{
+  "categories": [
+    {
+      "colorTheme":{
+        "bike_body" : [ 0, 0.91, 0.92 ],
+        "bike_glow" : [ 1,1,1 ],
+        "pf_levelSelection_buttonCompleted":[ 0.55, 0.94, 0.47 ],
+        "pf_x" : [ 0.86, 1, 0.87 ],
+        "pf_glow_x" : [ 0, 1, 0.1 ],
+        "pf_ground_x" : [ 0.28, 0.4, 0.42 ],
+        "trailColorStart" : [ 0, 0.4, 0.41 ],
+        "indicator_glow":[ 0.28, 0.4, 0.42 ],
+        "indicator_fill":[ 0.85, 0.93, 0.93 ],
+        "enemy_fill_color":[1, 0.35, 0.35],
+        "enemy_glow_color":[1, 0, 0],
+        "pickup_fill_color":[ 0.8, 0.92, 0.92 ],
+        "pickup_glow_color":[ 0, 0.91, 0.92 ]
+      },
+      "reward":50,
+      "name": "Easy",
+      "levels": [
+        "level-T",
+        "level-O",
+        "level-A",
+        "level-G",
+        "level-H",
+        "level-X",
+        "level-R",
+        "level-M"
+      ]
+    },
+    {
+      "colorTheme": {
+        "bike_body" : [ 0.93, 0.16, 0.46 ],
+        "bike_glow" : [ 1, 1, 1 ],
+        "pf_levelSelection_buttonCompleted":[ 1, 0.98, 0.46 ],
+        "pf_x" : [ 1, 0.99, 0.85 ],
+        "pf_glow_x" : [ 1, 0.96, 0 ],
+        "pf_ground_x" : [ 0.44, 0.35, 0.4 ],
+        "trailColorStart" : [0.51, 0.13, 0.27 ],
+        "indicator_glow":[ 0.44, 0.35, 0.4 ],
+        "indicator_fill":[ 1, 0.87, 0.96 ],
+        "enemy_fill_color":[1, 0.35, 0.35],
+        "enemy_glow_color":[1, 0, 0],
+        "pickup_fill_color":[ 1, 0.84, 0.93 ],
+        "pickup_glow_color":[ 0.93, 0.16, 0.46 ]
+    },
+      "reward":75,
+      "name": "Moderate",
+      "levels": [
+        "level-BB",
+        "level-B",
+        "level-D",
+        "level-Q",
+        "level-C",
+        "level-E",
+        "level-L",
+        "level-N"
+      ]
+    },
+    {
+      "colorTheme": {
+        "bike_body" : [ 1, 0.96, 0 ],
+        "bike_glow" : [ 1, 1, 1 ],
+        "pf_levelSelection_buttonCompleted":[ 1, 0.7, 0.26 ],
+        "pf_x" : [ 1, 0.95, 0.89 ],
+        "pf_glow_x" : [ 1, 0.55, 0 ],
+        "pf_ground_x" : [ 0.46, 0.21, 0.28 ],
+        "trailColorStart" : [ 0.4, 0.39, 0 ],
+        "indicator_glow":[ 0.44, 0.35, 0.4 ],
+        "indicator_fill":[ 1, 0.87, 0.96 ],
+        "enemy_fill_color":[1, 0.35, 0.35],
+        "enemy_glow_color":[1, 0, 0],
+        "pickup_fill_color":[ 1, 1, 0.94 ],
+        "pickup_glow_color":[ 1, 0.96, 0 ]
+      },
+      "reward":100,
+      "name": "Difficult",
+      "levels": [
+        "level-W",
+        "level-Z",
+        "level-BA",
+        "level-J",
+        "level-U",
+        "level-I",
+        "level-S",
+        "level-Y"
+      ]
+    },
+    {
+      "colorTheme": {
+        "bike_body" : [ 0.92, 0.72, 0],
+        "bike_glow" : [ 1, 1, 1 ],
+        "pf_levelSelection_buttonCompleted":[ 1, 0.4, 0.4 ],
+        "pf_x" : [ 1, 0.9, 0.9 ],
+        "pf_glow_x" : [ 1, 0, 0.2 ],
+        "pf_ground_x" : [ 0.53, 0.1, 0.45  ],
+        "trailColorStart" : [0.61, 0.33, 0 ],
+        "indicator_glow":[ 0.53, 0.1, 0.45 ],
+        "indicator_fill":[ 1, 0.78, 0.89 ],
+        "enemy_fill_color":[1, 0.35, 0.35],
+        "enemy_glow_color":[1, 0, 0],
+        "pickup_fill_color":[ 1, 0.97, 0.87 ],
+        "pickup_glow_color":[ 1, 0.77, 0 ]
+      },
+      "reward":125,
+      "name": "Extreme",
+      "levels": [
+        "level-K",
+        "level-P",
+        "level-F",
+        "level-BC",
+        "level-BD",
+        "level-BE",
+        "level-BF",
+        "level-V"
+      ]
+    }
+  ]
+}

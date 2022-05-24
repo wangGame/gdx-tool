@@ -1,0 +1,262 @@
+{
+  "ID": "b1875403-0045-42da-bd92-e0cab9de52a2",
+  "Version": "3.10.0.0",
+  "Name": "quit",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 247,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tanchuang/commonbg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 23,
+            "Scale9OriginY": 30,
+            "Scale9Width": 14,
+            "Scale9Height": 43,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 359.9988,
+              "Y": 694.4978
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5426
+            },
+            "PreSize": {
+              "X": 0.875,
+              "Y": 0.3047
+            },
+            "LeftMargin": 44.9988,
+            "RightMargin": 45.0012,
+            "TopMargin": 390.5022,
+            "BottomMargin": 499.4978,
+            "Tag": 401,
+            "ActionTag": 2014249355,
+            "Size": {
+              "X": 630.0,
+              "Y": 390.0
+            },
+            "Name": "bg_1_0",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tanchuang/yes.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 253.0,
+              "Y": 576.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3514,
+              "Y": 0.4504
+            },
+            "PreSize": {
+              "X": 0.2639,
+              "Y": 0.0727
+            },
+            "LeftMargin": 158.0,
+            "RightMargin": 372.0,
+            "TopMargin": 657.0,
+            "BottomMargin": 530.0,
+            "Tag": 391,
+            "ActionTag": -1349867188,
+            "Size": {
+              "X": 190.0,
+              "Y": 93.0
+            },
+            "Name": "yes",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tanchuang/no.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 576.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6667,
+              "Y": 0.4504
+            },
+            "PreSize": {
+              "X": 0.2639,
+              "Y": 0.0727
+            },
+            "LeftMargin": 385.0,
+            "RightMargin": 145.0,
+            "TopMargin": 657.0,
+            "BottomMargin": 530.0,
+            "Tag": 392,
+            "ActionTag": 274278464,
+            "Size": {
+              "X": 190.0,
+              "Y": 93.0
+            },
+            "Name": "no",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tanchuang/quit.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 362.0,
+              "Y": 807.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5028,
+              "Y": 0.6305
+            },
+            "PreSize": {
+              "X": 0.2194,
+              "Y": 0.0547
+            },
+            "LeftMargin": 283.0,
+            "RightMargin": 279.0,
+            "TopMargin": 438.0,
+            "BottomMargin": 772.0,
+            "Tag": 393,
+            "ActionTag": -1173893327,
+            "Size": {
+              "X": 158.0,
+              "Y": 70.0
+            },
+            "Name": "quit",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "tanchuang/are_you_su.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 699.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5465
+            },
+            "PreSize": {
+              "X": 0.4944,
+              "Y": 0.0711
+            },
+            "LeftMargin": 182.0,
+            "RightMargin": 182.0,
+            "TopMargin": 535.0,
+            "BottomMargin": 654.0,
+            "Tag": 394,
+            "ActionTag": 839984259,
+            "Size": {
+              "X": 356.0,
+              "Y": 91.0
+            },
+            "Name": "are_you_su",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "tanchuang/are_you_su.png",
+        "tanchuang/commonbg.png",
+        "tanchuang/no.png",
+        "tanchuang/quit.png",
+        "tanchuang/yes.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

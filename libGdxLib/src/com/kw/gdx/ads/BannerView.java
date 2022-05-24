@@ -20,6 +20,17 @@ public class BannerView extends Group {
 //        Configuration.bannerHeight = (int) pxToDp(50);
         PixmapImage image = new PixmapImage((int)bannerWidth,(int)bannerHight);
 //        addActor(new Image(new Texture(image.getPixmap())));
+
+        /*
+        *
+        *         int sw =phoneInfo.getH();  //宽
+        int sc =  phoneInfo.getW();  //高
+        float chicun = phoneInfo.getCc(); // 尺寸   比如 5寸
+        double sqrt = Math.sqrt(sw * sw + sc * sc);
+        double v = sqrt / chicun;
+        NLog.d("v  %s",v);
+        float min = Math.max(Constant.STDWIDTH/sw,Constant.STDHIGHT/sc);
+        Constant.vvv = v / 160 * min;*/
     }
 
     public static float pxToDp(float dp){

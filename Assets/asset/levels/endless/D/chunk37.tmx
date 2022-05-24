@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="58" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="226">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="9" source="../../Platforms.tsx"/>
+ <tileset firstgid="63" source="../../Currency.tsx"/>
+ <objectgroup id="1" name="Ground"/>
+ <objectgroup id="2" name="Top">
+  <object id="145" type="platform" gid="25" x="-1" y="1000" width="42" height="12"/>
+  <object id="154" type="platform" gid="10" x="32.9889" y="1000.03" width="186" height="186"/>
+  <object id="155" type="platform" gid="10" x="208.989" y="825.033" width="186" height="186">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionX" value="[[-105,1200,&quot;inOutQuad&quot;,0],[105,1200,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="185" type="platform" gid="10" x="513.989" y="650.033" width="186" height="186">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionX" value="[[150,1200,&quot;inOutQuad&quot;,0],[-150,1200,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="187" type="platform" gid="10" x="689.989" y="475.033" width="186" height="186">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionX" value="[[-150,1200,&quot;inOutQuad&quot;,0],[150,1200,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="188" type="platform" gid="2147483658" x="859.989" y="475.033" width="186" height="186">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionX" value="[[-150,1200,&quot;inOutQuad&quot;,0],[150,1200,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="212" type="platform" gid="2147483684" x="1190.06" y="1045.76" width="189" height="255" rotation="-14.2343"/>
+  <object id="223" type="platform" gid="2147483658" x="863.427" y="478.877" width="186" height="186">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionX" value="[[-150,1200,&quot;inOutQuad&quot;,0],[150,1200,&quot;inOutQuad&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="224" type="enemy" gid="2" x="1281.6" y="642.212" width="418" height="418">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animRotation" value="[[360,2000,&quot;linear&quot;,0]]"/>
+   </properties>
+  </object>
+  <object id="225" type="platform" gid="25" x="1368.33" y="1000" width="492.667" height="12"/>
+ </objectgroup>
+ <objectgroup id="3" name="Currency">
+  <object id="219" type="currency" gid="65" x="1191.47" y="890.944" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="220" type="currency" gid="65" x="1289.8" y="973.614" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="221" type="currency" gid="65" x="1254.14" y="952.614" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="222" type="currency" gid="65" x="1222.8" y="925.274" width="50" height="65">
+   <properties>
+    <property name="coin" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

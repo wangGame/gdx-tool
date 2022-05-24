@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="120" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="320">
+ <tileset firstgid="1" name="Enemies" tilewidth="686" tileheight="686" tilecount="6" columns="0">
+  <tile id="0">
+   <image width="429" height="106" source="../../levels/Tiled_Assets/enemy_1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="686" height="686" source="../../levels/Tiled_Assets/enemy_2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="686" height="498" source="../../levels/Tiled_Assets/enemy_3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="165" height="249" source="../../levels/Tiled_Assets/enemy_4.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="7" name="Platforms" tilewidth="686" tileheight="550" tilecount="47" columns="0">
+  <tile id="0">
+   <image width="119" height="120" source="../../levels/Tiled_Assets/pf_1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="186" height="186" source="../../levels/Tiled_Assets/pf_2.png"/>
+  </tile>
+  <tile id="10">
+   <image width="220" height="176" source="../../levels/Tiled_Assets/pf_7_small.png"/>
+  </tile>
+  <tile id="11">
+   <image width="12" height="240" source="../../levels/Tiled_Assets/pf_8-1_large.png"/>
+  </tile>
+  <tile id="12">
+   <image width="12" height="161" source="../../levels/Tiled_Assets/pf_8-1_medium.png"/>
+  </tile>
+  <tile id="13">
+   <image width="12" height="121" source="../../levels/Tiled_Assets/pf_8-1_small.png"/>
+  </tile>
+  <tile id="14">
+   <image width="83" height="12" source="../../levels/Tiled_Assets/pf_8-2_large.png"/>
+  </tile>
+  <tile id="15">
+   <image width="56" height="12" source="../../levels/Tiled_Assets/pf_8-2_medium.png"/>
+  </tile>
+  <tile id="16">
+   <image width="42" height="12" source="../../levels/Tiled_Assets/pf_8-2_small.png"/>
+  </tile>
+  <tile id="17">
+   <image width="426" height="214" source="../../levels/Tiled_Assets/pf_9_large.png"/>
+  </tile>
+  <tile id="18">
+   <image width="288" height="144" source="../../levels/Tiled_Assets/pf_9_medium.png"/>
+  </tile>
+  <tile id="19">
+   <image width="220" height="110" source="../../levels/Tiled_Assets/pf_9_small.png"/>
+  </tile>
+  <tile id="2">
+   <image width="244" height="130" source="../../levels/Tiled_Assets/pf_3.png"/>
+  </tile>
+  <tile id="20">
+   <image width="220" height="220" source="../../levels/Tiled_Assets/pf_10_large.png"/>
+  </tile>
+  <tile id="21">
+   <image width="150" height="151" source="../../levels/Tiled_Assets/pf_10_medium.png"/>
+  </tile>
+  <tile id="22">
+   <image width="116" height="116" source="../../levels/Tiled_Assets/pf_10_small.png"/>
+  </tile>
+  <tile id="23">
+   <image width="281" height="12" source="../../levels/Tiled_Assets/pf_11_large.png"/>
+  </tile>
+  <tile id="24">
+   <image width="188" height="12" source="../../levels/Tiled_Assets/pf_11_medium.png"/>
+  </tile>
+  <tile id="25">
+   <image width="141" height="12" source="../../levels/Tiled_Assets/pf_11_small.png"/>
+  </tile>
+  <tile id="26">
+   <image width="279" height="377" source="../../levels/Tiled_Assets/pf_12_large.png"/>
+  </tile>
+  <tile id="27">
+   <image width="189" height="255" source="../../levels/Tiled_Assets/pf_12_medium.png"/>
+  </tile>
+  <tile id="28">
+   <image width="143" height="193" source="../../levels/Tiled_Assets/pf_12_small.png"/>
+  </tile>
+  <tile id="29">
+   <image width="234" height="51" source="../../levels/Tiled_Assets/pf_13-1_large.png"/>
+  </tile>
+  <tile id="3">
+   <image width="218" height="56" source="../../levels/Tiled_Assets/pf_4.png"/>
+  </tile>
+  <tile id="30">
+   <image width="160" height="38" source="../../levels/Tiled_Assets/pf_13-1_medium.png"/>
+  </tile>
+  <tile id="31">
+   <image width="122" height="31" source="../../levels/Tiled_Assets/pf_13-1_small.png"/>
+  </tile>
+  <tile id="32">
+   <image width="138" height="158" source="../../levels/Tiled_Assets/pf_13-2_large.png"/>
+  </tile>
+  <tile id="33">
+   <image width="94" height="108" source="../../levels/Tiled_Assets/pf_13-2_medium.png"/>
+  </tile>
+  <tile id="34">
+   <image width="74" height="84" source="../../levels/Tiled_Assets/pf_13-2_small.png"/>
+  </tile>
+  <tile id="35">
+   <image width="480" height="190" source="../../levels/Tiled_Assets/pf_14_large.png"/>
+  </tile>
+  <tile id="36">
+   <image width="321" height="130" source="../../levels/Tiled_Assets/pf_14_medium.png"/>
+  </tile>
+  <tile id="37">
+   <image width="241" height="102" source="../../levels/Tiled_Assets/pf_14_small.png"/>
+  </tile>
+  <tile id="38">
+   <image width="166" height="166" source="../../levels/Tiled_Assets/pf_15_large.png"/>
+  </tile>
+  <tile id="39">
+   <image width="114" height="114" source="../../levels/Tiled_Assets/pf_15_medium.png"/>
+  </tile>
+  <tile id="4">
+   <image width="249" height="12" source="../../levels/Tiled_Assets/pf_5.png"/>
+  </tile>
+  <tile id="40">
+   <image width="89" height="89" source="../../levels/Tiled_Assets/pf_15_small.png"/>
+  </tile>
+  <tile id="41">
+   <image width="166" height="166" source="../../levels/Tiled_Assets/pf_16_large.png"/>
+  </tile>
+  <tile id="42">
+   <image width="114" height="114" source="../../levels/Tiled_Assets/pf_16_medium.png"/>
+  </tile>
+  <tile id="43">
+   <image width="89" height="89" source="../../levels/Tiled_Assets/pf_16_small.png"/>
+  </tile>
+  <tile id="44">
+   <image width="48" height="119" source="../../levels/Tiled_Assets/pf_17_large.png"/>
+  </tile>
+  <tile id="45">
+   <image width="32" height="80" source="../../levels/Tiled_Assets/pf_17_medium.png"/>
+  </tile>
+  <tile id="46">
+   <image width="24" height="60" source="../../levels/Tiled_Assets/pf_17_small.png"/>
+  </tile>
+  <tile id="5">
+   <image width="481" height="232" source="../../levels/Tiled_Assets/pf_18_large.png"/>
+  </tile>
+  <tile id="6">
+   <image width="321" height="158" source="../../levels/Tiled_Assets/pf_18_medium.png"/>
+  </tile>
+  <tile id="7">
+   <image width="241" height="122" source="../../levels/Tiled_Assets/pf_18_small.png"/>
+  </tile>
+  <tile id="8">
+   <image width="426" height="341" source="../../levels/Tiled_Assets/pf_7_large.png"/>
+  </tile>
+  <tile id="9">
+   <image width="288" height="231" source="../../levels/Tiled_Assets/pf_7_medium.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="54" name="Grounds" tilewidth="480" tileheight="763" tilecount="16" columns="0">
+  <tile id="0">
+   <image width="110" height="697" source="../../levels/Tiled_Assets/pf_ground_1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="177" height="763" source="../../levels/Tiled_Assets/pf_ground_2.png"/>
+  </tile>
+  <tile id="10">
+   <image width="280" height="383" source="../../levels/Tiled_Assets/pf_ground_12.png"/>
+  </tile>
+  <tile id="11">
+   <image width="480" height="150" source="../../levels/Tiled_Assets/pf_ground_13.png"/>
+  </tile>
+  <tile id="12">
+   <image width="480" height="277" source="../../levels/Tiled_Assets/pf_ground_14.png"/>
+  </tile>
+  <tile id="13">
+   <image width="154" height="155" source="../../levels/Tiled_Assets/pf_ground_15.png"/>
+  </tile>
+  <tile id="14">
+   <image width="480" height="257" source="../../levels/Tiled_Assets/pf_ground_18.png"/>
+  </tile>
+  <tile id="15">
+   <image width="78" height="734" source="../../levels/Tiled_Assets/pf_ground_end.png"/>
+  </tile>
+  <tile id="2">
+   <image width="235" height="704" source="../../levels/Tiled_Assets/pf_ground_3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="223" height="619" source="../../levels/Tiled_Assets/pf_ground_4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="250" height="579" source="../../levels/Tiled_Assets/pf_ground_5.png"/>
+  </tile>
+  <tile id="5">
+   <image width="196" height="619" source="../../levels/Tiled_Assets/pf_ground_6.png"/>
+  </tile>
+  <tile id="6">
+   <image width="413" height="332" source="../../levels/Tiled_Assets/pf_ground_7.png"/>
+  </tile>
+  <tile id="7">
+   <image width="56" height="160" source="../../levels/Tiled_Assets/pf_ground_8.png"/>
+  </tile>
+  <tile id="8">
+   <image width="413" height="207" source="../../levels/Tiled_Assets/pf_ground_9.png"/>
+  </tile>
+  <tile id="9">
+   <image width="281" height="384" source="../../levels/Tiled_Assets/pf_ground_11.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="70" name="Currency" tilewidth="81" tileheight="106" tilecount="1" columns="0">
+  <tile id="0">
+   <image width="81" height="106" source="../../levels/Tiled_Assets/pickup_currency.png"/>
+  </tile>
+ </tileset>
+ <objectgroup id="1" name="Ground">
+  <object id="280" type="ground" gid="58" x="1691.06" y="1614.18" width="399.833" height="2058.65" rotation="90"/>
+  <object id="281" type="ground" gid="58" x="3586.03" y="1477.73" width="399.833" height="595.467" rotation="90"/>
+  <object id="282" type="ground" gid="58" x="-164.94" y="1614.18" width="399.833" height="2058.65" rotation="90"/>
+  <object id="248" type="ground" gid="58" x="-512.576" y="1509.17" width="399.833" height="1689.15" rotation="90"/>
+  <object id="286" type="ground" gid="55" x="692.802" y="1764.84" width="149.312" height="493.378"/>
+  <object id="287" type="ground" gid="55" x="284.676" y="1869.37" width="149.312" height="493.378"/>
+  <object id="288" type="ground" gid="55" x="967.593" y="1616.37" width="149.312" height="493.378"/>
+  <object id="289" type="ground" gid="55" x="1688.29" y="1928.2" width="149.312" height="493.378"/>
+  <object id="290" type="ground" gid="55" x="1922.53" y="1942.28" width="149.312" height="493.378"/>
+  <object id="291" type="ground" gid="55" x="2223.69" y="1782.02" width="149.312" height="493.378"/>
+  <object id="292" type="ground" gid="55" x="2519.57" y="1639.36" width="149.312" height="493.378"/>
+  <object id="293" type="ground" gid="55" x="3245.17" y="1947.57" width="149.312" height="493.378"/>
+  <object id="294" type="ground" gid="69" x="457.724" y="1827.29" width="51.4886" height="408.198" rotation="-9.57714"/>
+  <object id="296" type="ground" gid="69" x="865.415" y="1729.5" width="51.4886" height="408.198" rotation="-9.57714"/>
+  <object id="297" type="ground" gid="69" x="1094.18" y="1728.89" width="85.3852" height="536.637" rotation="-5.52361"/>
+  <object id="298" type="ground" gid="69" x="1853.13" y="1835.63" width="52.2977" height="359.061" rotation="-9.57714"/>
+  <object id="299" type="ground" gid="1073741893" x="2105.47" y="1869.09" width="85.3852" height="359.061" rotation="-16.8434"/>
+  <object id="300" type="ground" gid="69" x="2400.99" y="1707.72" width="85.3852" height="359.061" rotation="-16.8434"/>
+  <object id="301" type="ground" gid="69" x="2615.03" y="1655.21" width="85.3852" height="431.924" rotation="-2.84237"/>
+  <object id="302" type="ground" gid="69" x="3341.94" y="1962.93" width="85.3852" height="435.982" rotation="-2.84237"/>
+  <object id="303" type="ground" gid="69" x="3654.12" y="1501.34" width="85.3852" height="441.953" rotation="199.391"/>
+  <object id="304" type="ground" gid="69" x="735.995" y="1406.03" width="51.4886" height="408.198" rotation="186.005"/>
+  <object id="305" type="ground" gid="69" x="1011.83" y="1257.8" width="51.4886" height="408.198" rotation="186.005"/>
+  <object id="306" type="ground" gid="69" x="1731.34" y="1570.74" width="51.4886" height="408.198" rotation="186.005"/>
+  <object id="307" type="ground" gid="69" x="1966.05" y="1582.28" width="51.4886" height="408.198" rotation="186.005"/>
+  <object id="308" type="ground" gid="69" x="2270.01" y="1415.55" width="51.4886" height="408.198" rotation="186.005"/>
+  <object id="309" type="ground" gid="69" x="2566.28" y="1274.47" width="51.4886" height="408.198" rotation="186.005"/>
+  <object id="310" type="ground" gid="69" x="3288.35" y="1589.98" width="51.4886" height="408.198" rotation="186.005"/>
+  <object id="311" type="ground" gid="69" x="969.978" y="1561.84" width="85.3852" height="540.268" rotation="269.4"/>
+  <object id="312" type="ground" gid="69" x="1486.99" y="1809.34" width="177.164" height="540.268" rotation="296.887"/>
+  <object id="313" type="ground" gid="69" x="1977.3" y="1658.81" width="85.3852" height="540.268" rotation="269.4"/>
+  <object id="314" type="ground" gid="69" x="2626" y="1653.79" width="85.3852" height="540.268" rotation="269.4"/>
+  <object id="315" type="ground" gid="69" x="3237.51" y="1701.03" width="125.496" height="611.003" rotation="278.28"/>
+  <object id="316" type="ground" gid="69" x="3927.45" y="1632.7" width="85.3852" height="540.268" rotation="269.4"/>
+  <object id="317" type="ground" gid="69" x="4.62433" y="1573.81" width="85.3852" height="540.268" rotation="269.4"/>
+  <object id="318" type="ground" gid="69" x="4507.26" y="1529.06" width="85.3852" height="540.268" rotation="267.912"/>
+ </objectgroup>
+ <objectgroup id="2" name="Top">
+  <object id="249" type="platform" gid="30" x="-0.780831" y="1510" width="287" height="12"/>
+  <object id="265" type="platform" gid="31" x="286.662" y="1510.5" width="188" height="12" rotation="-37.1143"/>
+  <object id="266" type="platform" gid="31" x="694" y="1404" width="188" height="12" rotation="-37.1143"/>
+  <object id="267" type="platform" gid="31" x="969" y="1258" width="188" height="12" rotation="-37.1143"/>
+  <object id="268" type="platform" gid="31" x="1691" y="1569" width="188" height="12" rotation="-37.1143"/>
+  <object id="269" type="platform" gid="31" x="1924.33" y="1582.67" width="188" height="12" rotation="-37.1143"/>
+  <object id="272" type="platform" gid="31" x="3584.74" y="1480.54" width="380.95" height="12"/>
+  <object id="277" type="platform" gid="31" x="2227.33" y="1419.33" width="188" height="12" rotation="-37.1143"/>
+  <object id="278" type="platform" gid="31" x="2523.67" y="1277.17" width="188" height="12" rotation="-37.1143"/>
+  <object id="279" type="platform" gid="31" x="3245.67" y="1588.17" width="188" height="12" rotation="-37.1143"/>
+ </objectgroup>
+ <objectgroup id="3" name="Currency"/>
+</map>

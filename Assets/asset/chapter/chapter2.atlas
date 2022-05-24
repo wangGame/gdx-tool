@@ -1,0 +1,62 @@
+
+chapter2.png
+size: 1552,486
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2-1
+  rotate: false
+  xy: 4, 16
+  size: 441, 73
+  orig: 453, 330
+  offset: 6, 102
+  index: -1
+2-2
+  rotate: false
+  xy: 453, 17
+  size: 441, 214
+  orig: 453, 330
+  offset: 6, 104
+  index: -1
+2-3
+  rotate: false
+  xy: 699, 244
+  size: 400, 238
+  orig: 453, 330
+  offset: 6, 50
+  index: -1
+2-4
+  rotate: false
+  xy: 902, 4
+  size: 447, 232
+  orig: 453, 331
+  offset: 6, 81
+  index: -1
+2-5
+  rotate: false
+  xy: 1107, 270
+  size: 441, 212
+  orig: 453, 330
+  offset: 6, 83
+  index: -1
+2-6
+  rotate: false
+  xy: 4, 217
+  size: 292, 265
+  orig: 453, 330
+  offset: 75, 54
+  index: -1
+2-7
+  rotate: false
+  xy: 304, 239
+  size: 387, 243
+  orig: 453, 331
+  offset: 6, 28
+  index: -1
+2-8
+  rotate: false
+  xy: 4, 97
+  size: 441, 112
+  orig: 453, 330
+  offset: 6, 116
+  index: -1

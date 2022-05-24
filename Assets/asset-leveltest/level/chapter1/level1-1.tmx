@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="145" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="348">
+ <tileset firstgid="1" source="../../Enemies.tsx"/>
+ <tileset firstgid="5" source="../../Platforms.tsx"/>
+ <tileset firstgid="54" source="../../Grounds.tsx"/>
+ <objectgroup id="2" name="Top">
+  <object id="144" type="platform" gid="30" x="350" y="1374" width="144" height="12"/>
+  <object id="258" type="platform" gid="29" x="459.417" y="1374" width="865.863" height="12"/>
+  <object id="285" type="platform" gid="1073741831" x="683.5" y="1357" width="244" height="130">
+   <properties>
+    <property name="animLoops" type="int" value="-1"/>
+    <property name="animPositionY" value="[[-300,200,&quot;inOutQuad&quot;,500],[300,600,&quot;inOutQuad&quot;,150]"/>
+    <property name="animStartOnCollision" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="314" type="platform" gid="1073741836" x="351.262" y="1252" width="241" height="122" rotation="180"/>
+  <object id="315" type="platform" gid="30" x="-33.0104" y="1264.18" width="144" height="12"/>
+  <object id="344" type="start" x="1.51515" y="1171.97" width="100" height="50"/>
+ </objectgroup>
+</map>

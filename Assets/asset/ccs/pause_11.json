@@ -1,0 +1,208 @@
+{
+  "ID": "a7f75a2f-bce5-4623-b530-c0f769610bf7",
+  "Version": "3.10.0.0",
+  "Name": "pause_16",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "pause/menu.png",
+              "Plist": "plist/pause.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 958.5,
+              "Y": 116.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8875,
+              "Y": 0.0607
+            },
+            "PreSize": {
+              "X": 0.1176,
+              "Y": 0.0693
+            },
+            "LeftMargin": 895.0,
+            "RightMargin": 58.0,
+            "TopMargin": 1737.0,
+            "BottomMargin": 50.0,
+            "Tag": 43,
+            "Size": {
+              "X": 127.0,
+              "Y": 133.0
+            },
+            "Name": "main",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "pause/again.png",
+              "Plist": "plist/pause.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 122.5,
+              "Y": 116.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1134,
+              "Y": 0.0607
+            },
+            "PreSize": {
+              "X": 0.1176,
+              "Y": 0.0693
+            },
+            "LeftMargin": 59.0,
+            "RightMargin": 894.0,
+            "TopMargin": 1737.0,
+            "BottomMargin": 50.0,
+            "Tag": 44,
+            "Size": {
+              "X": 127.0,
+              "Y": 133.0
+            },
+            "Name": "reset",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "pause/tap_to_con.png",
+              "Plist": "plist/pause.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 537.5,
+              "Y": 1392.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4977,
+              "Y": 0.7253
+            },
+            "PreSize": {
+              "X": 0.7565,
+              "Y": 0.0422
+            },
+            "LeftMargin": 129.0,
+            "RightMargin": 134.0,
+            "TopMargin": 487.0,
+            "BottomMargin": 1352.0,
+            "Tag": 42,
+            "Size": {
+              "X": 817.0,
+              "Y": 81.0
+            },
+            "Name": "tap_to_con",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "pause/play_butto.png",
+              "Plist": "plist/pause.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 541.0,
+              "Y": 1096.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5009,
+              "Y": 0.5708
+            },
+            "PreSize": {
+              "X": 0.2556,
+              "Y": 0.149
+            },
+            "LeftMargin": 403.0,
+            "RightMargin": 401.0,
+            "TopMargin": 681.0,
+            "BottomMargin": 953.0,
+            "Tag": 49,
+            "Size": {
+              "X": 276.0,
+              "Y": 286.0
+            },
+            "Name": "btn",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "pause_16",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "plist/pause.plist",
+        "plist/pause.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}
