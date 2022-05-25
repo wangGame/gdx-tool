@@ -10,6 +10,7 @@ import com.kw.gdx.audio.Asset;
 import com.kw.gdx.audio.AudioProcess;
 import com.kw.gdx.audio.AudioType;
 import com.read.csv.asset.GameAsset;
+import com.read.csv.csvdemo.CsvAppDemo;
 import com.read.csv.screen.base.BaseScreen;
 
 @ScreenResource("ccs/loading_11.json")
@@ -34,9 +35,8 @@ public class LoadingScreen extends BaseScreen {
         //播放音效
         AudioProcess.playSound(AudioType.FA_DONG_JI);
 
-
-
-
+        //读取csv
+        CsvAppDemo demo = new CsvAppDemo();
 
 
         Group bottom = findActor("bottom");
@@ -49,10 +49,12 @@ public class LoadingScreen extends BaseScreen {
     @Override
     public void render(float delta) {
         super.render(delta);
+        nextScreen();
 
     }
 
     private void nextScreen() {
+        setScreen(new DemoScreen());
     }
 //
 //    private void jietu() {

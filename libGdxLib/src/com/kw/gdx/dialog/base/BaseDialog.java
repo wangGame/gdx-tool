@@ -12,7 +12,6 @@ import com.kw.gdx.dialog.DialogManager;
  * Console.WriteLine(dt.ToString("HH:mm:ss.fffffff"))
  */
 public class BaseDialog extends Group {
-//    protected BaseScreen screen;
     protected Group dialogGroup;
     protected DialogManager.Type type = DialogManager.Type.closeOldShowCurr;
     protected float offsetX;
@@ -37,13 +36,10 @@ public class BaseDialog extends Group {
         setX(Constant.GAMEWIDTH/2,Align.center);
         offsetX = (Constant.GAMEWIDTH - Constant.STDWIDTH)/2;
         offsetY = (Constant.GAMEHIGHT - Constant.STDHIGHT) / 2;
-//        screen = RiderGame.instence().getScreen();
-
     }
 
     public void close(){
         setOrigin(Align.center);
-//        playAudio();
         addAction(
                 Actions.parallel(
                     Actions.sequence(

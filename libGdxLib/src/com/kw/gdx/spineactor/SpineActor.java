@@ -21,7 +21,6 @@ import com.esotericsoftware.spine.attachments.Attachment;
 import com.esotericsoftware.spine.attachments.MeshAttachment;
 import com.esotericsoftware.spine.attachments.RegionAttachment;
 import com.kw.gdx.audio.Asset;
-import com.kw.gdx.src.SkeletonDataLoader;
 
 public class SpineActor extends Actor {
     protected Skeleton skeleton;

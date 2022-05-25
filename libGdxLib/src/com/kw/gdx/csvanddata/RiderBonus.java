@@ -1,59 +1,32 @@
 package com.kw.gdx.csvanddata;
 
 public class RiderBonus {
-    private int id;
-    private String picture;
-    private int occur;
-    private int perfect;
-    private int dir;
+    private int chap;
+    private String star;
 
-    public int getId() {
-        return id;
+    public void setChap(int chap) {
+        this.chap = chap;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public int getChap() {
+        return chap;
     }
 
-    public String getPicture() {
-        return picture;
+    public void setStar(String star) {
+        this.star = star;
     }
 
-    public void setPicture(String picture) {
-        this.picture = picture;
+    public String getStar() {
+        return star;
     }
 
-    public int getOccur() {
-        return occur;
-    }
-
-    public void setOccur(int occur) {
-        this.occur = occur;
-    }
-
-    public int getPerfect() {
-        return perfect;
-    }
-
-    public void setPerfect(int perfect) {
-        this.perfect = perfect;
-    }
-
-    public int getDir() {
-        return dir;
-    }
-
-    public void setDir(int dir) {
-        this.dir = dir;
-    }
+    // TODO: 2022/5/25
 
     @Override
     public String toString() {
         return "RiderBonus{" +
-                "id=" + id +
-                ", picture='" + picture + '\'' +
-                ", occur=" + occur +
-                ", perfect=" + perfect +
+                "chap=" + chap +
+                ", star='" + star + '\'' +
                 '}';
     }
 }

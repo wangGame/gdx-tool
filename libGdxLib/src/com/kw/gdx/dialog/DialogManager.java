@@ -11,11 +11,12 @@ import com.kw.gdx.utils.Layer;
 
 public class DialogManager {
     private Stage stage;
+    private Image shadow;
+    private Array<BaseDialog> array = new Array<>();
+
     public DialogManager(Stage stage) {
         this.stage = stage;
     }
-    private Image shadow;
-    private Array<BaseDialog> array = new Array<>();
 
     public enum Type{
         closeOldShowCurr,
@@ -30,7 +31,7 @@ public class DialogManager {
         shadow.setColor(0,0,0,0.0F);
         shadow.addAction(Actions.alpha(0.75F,time));
         stage.addActor(shadow);
-        Actor stg = stage.getRoot().findActor("stg");
+        stage.getRoot().findActor("stg");
         shadow.setName("shadow");
     }
 

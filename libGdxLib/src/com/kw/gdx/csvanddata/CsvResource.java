@@ -7,7 +7,6 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class CsvResource {
-
     public CsvResource(Class clazz){
         Method[] declaredMethods = clazz.getDeclaredMethods();
         for (Method declaredField : declaredMethods) {

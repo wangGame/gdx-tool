@@ -1,15 +1,12 @@
 package com.kw.gdx.audio;
 
-import com.badlogic.gdx.utils.Array;
 import com.esotericsoftware.spine.SkeletonRenderer;
-import com.kw.gdx.annotation.AnnotationInfo;
 import com.kw.gdx.annotation.FtResource;
 import com.kw.gdx.annotation.SpineResource;
 import com.kw.gdx.annotation.TextureReginAnnotation;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.assets.loaders.BitmapFontLoader;
-import com.badlogic.gdx.assets.loaders.TextureAtlasLoader;
 import com.badlogic.gdx.assets.loaders.TextureLoader;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
@@ -19,10 +16,9 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.utils.Disposable;
-import com.kw.gdx.constant.Configuration;
 import com.esotericsoftware.spine.SkeletonData;
 import com.kw.gdx.log.NLog;
-import com.kw.gdx.src.SkeletonDataLoader;
+import com.kw.gdx.spineactor.SkeletonDataLoader;
 import com.ui.ManagerUIEditor;
 import com.ui.loader.ManagerUILoader;
 import com.ui.plist.PlistAtlas;

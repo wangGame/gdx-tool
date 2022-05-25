@@ -64,31 +64,30 @@ public class ReadCvs {
      * @throws Exception
      */
     public Array readMethodMethod(Array array,Reader fileReader,Class clazz) {
-//        try {
-//            CsvReader reader = new CsvReader(fileReader);
-//
-//            reader.readHeaders();
-//            while (reader.readRecord()) {
-//                try {
-//                    Object tempObject = clazz.getDeclaredConstructor().newInstance();
-//                    for (Field declaredField : clazz.getDeclaredFields()) {
-//                        String value = Interpreter.iteratorAnnotations(declaredField);
-//                        declaredField.setAccessible(true);
-//                        String methodName = parSetName(declaredField.getName());
-//                        Class<?> aClass = checkType(declaredField.getType());
-//                        Method method = clazz.getMethod(methodName, aClass);
-//                        mathodSetValue(method,reader.get(value),tempObject,declaredField);
-//                    }
-//                    array.add(tempObject);
-//                } catch (Exception e) {
-//                    e.printStackTrace();
-//                }
-//            }
-//            fileReader.close();
-//            reader.close();
-//        }catch (Exception e){
-//            e.printStackTrace();
-//        }
+        try {
+            CsvReader reader = new CsvReader(fileReader);
+            reader.readHeaders();
+            while (reader.readRecord()) {
+                try {
+                    Object tempObject = clazz.getDeclaredConstructor().newInstance();
+                    for (Field declaredField : clazz.getDeclaredFields()) {
+                        String value = Interpreter.iteratorAnnotations(declaredField);
+                        declaredField.setAccessible(true);
+                        String methodName = parSetName(declaredField.getName());
+                        Class<?> aClass = checkType(declaredField.getType());
+                        Method method = clazz.getMethod(methodName, aClass);
+                        mathodSetValue(method,reader.get(value),tempObject,declaredField);
+                    }
+                    array.add(tempObject);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+            fileReader.close();
+            reader.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         return array;
     }
 
